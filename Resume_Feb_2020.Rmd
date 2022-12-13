@@ -21,7 +21,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
-- <i class="fab fa-github-square"></i> [My Github profile](https://github.com/r-leyshon)
+- <i class="fab fa-github-square"></i> [My GitHub profile](https://github.com/r-leyshon)
 - <i class="fab fa-twitter-square"></i> [Rich_L1984](https://twitter.com/Rich_L1984)
 - <i class="fab fa-linkedin"></i> [richard_leyshon](https://www.linkedin.com/in/richard-leyshon-316121163/)
 <br>
@@ -32,11 +32,11 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Experienced in data analysis, statistics and programming.
+- Package development & Reproducible Analytical Pipelines in Python & R.
 
-- Seasoned educator with 9 years experience in teaching high school science.
+- Seasoned educator & passionate about building capability in Data Science.
 
-- Skilled in R, Python, DAX, Power Query and SQL. 
+- Interested in geospatial methods, quality assurance of code for analysis & research, multimodal transport and agent-based modelling.
 
 
 Disclaimer {#disclaimer}
@@ -70,6 +70,11 @@ Newport, Wales
 
 Jan 2022 to present
 
+- Undertaking research & analysis in the domain of socio-economic inequality across the UK.
+- Multimodal transport modelling with Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data.
+- Agent-based approaches to policy prioritisation for UK local authorities.
+- Alongside colleague Jake Marshall, shortlisted for the [Analysis in Government Awards 2022](https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/) Inclusion category. Topic: Paving the way for accessible data science training in the public sector.
+
 ### Data Science Lecturer
 
 Office for National Statistics Data Science Campus
@@ -78,6 +83,9 @@ Newport, Wales
 
 Apr 2020 to Jan 2022
 
+- Teaching R and Python-based statistical courses to groups of analysts at UK public sector and international National Statistical Offices.
+- Establishment of capability diversity & inclusion process, process control, compliance and risk mitigation. 
+- Development of [accessrmd package available on CRAN](https://cran.r-project.org/package=accessrmd), used to help improve the accessibility of training materials for learners who benefit from the use of screen-readers.
 
 ### Statistician  
 
@@ -90,10 +98,7 @@ Jan 2020 to Apr 2020
 - Automated cleaning & analysis of survey in R markdown.
 - Hypothesis testing with t-test, Mann-Whitney test and Monte Carlo power
 analysis, linear and logistic regression.
-- Stakeholder engagement with key external clients in translating user stories
-to prioritised feature requests.
-- Production and operationalising of geospatial analysis dashboards.
-- Querying odata feeds to update key organisational workflows to improve reproducibility, minimise human error and automate data workflows.
+- Automation of ETL pipelines in data transformation projects, ensuring at risk childrens' care placements across authorities in Wales are securely updated and available to local authority stakeholders and Childrens' Commissioning Consortium Cymru.
 
 ### Financial Analyst
 
@@ -105,13 +110,8 @@ Sep 2018 to Dec 2019
 
 - Automation of counter fraud and error risk testing of general ledger
 transactions.
-- Development of Power BI Dashboards in order to support performance audit and thematic review.
-- Relational data modelling, quality in data linkage.
-- Development of applications  in RShiny for exploratory data analysis.
-- Publication of R markdown interactive reports to help inform auditor opinion
+- Development of Power BI Dashboards & R Markdwown automated reports in order to support performance audit and thematic review.
 - Assisting in the delivery of Power BI education programme to internal and external stakeholders.
-- Maintaining a high standard of output within a fast-paced, AGILE work
-environment.
 
 ### Teacher of Science  
 
