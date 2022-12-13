@@ -5,7 +5,7 @@ date: "`r format(Sys.Date(), format = '%d %B %Y')`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: FALSE
+    self_contained: TRUE
 ---
 
 Aside
