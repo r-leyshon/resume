@@ -8,7 +8,8 @@ output:
     self_contained: FALSE
 ---
 
-::: aside
+Aside
+====================================
 
 <div style="align:center;padding-left:20%;">
 ![Wales feasible commute isochrones](www/wales_DarkBG.png)
@@ -26,90 +27,6 @@ Contact Info {#contact}
 <br>
 </div>
 
-:::
-
-Main
-================================================================================
-
-Richard Leyshon {#title}
---------------------------------------------------------------------------------
-
-
-
-
-
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-
-
-### Senior Data Scientist
-<br>
-Office for National Statistics Data Science Campus
-Newport, Wales
-January 2022 to present
-
-
-### Data Science Lecturer
-<br>
-Office for National Statistics Data Science Campus
-Newport, Wales
-April 2020 to January 2022
-
-
-### Statistician  
-<br>
-Data Cymru  
-
-Cardiff, Wales
-
-2020 to April 2020
-
-- Automated cleaning & analysis of survey in R markdown.
-- Hypothesis testing with t-test, Mann-Whitney test and Monte Carlo power
-analysis, linear and logistic regression.
-- Stakeholder engagement with key external clients in translating user stories
-to prioritised feature requests.
-- Production and operationalising of geospatial analysis dashboards.
-- Querying odata feeds to update key organisational workflows to improve reproducibility, minimise human error and automate data workflows.
-
-### Financial Analyst
-<br>
-Wales Audit Office  
-
-Cardiff, Wales  
-
-2018 to 2019
-
-- Automation of counter fraud and error risk testing of general ledger
-transactions.
-- Development of Power BI Dashboards in order to support performance audit and thematic review.
-- Relational data modelling, quality in data linkage.
-- Development of applications  in RShiny for exploratory data analysis.
-- Publication of R markdown interactive reports to help inform auditor opinion
-- Assisting in the delivery of Power BI education programme to internal and external stakeholders.
-- Maintaining a high standard of output within a fast-paced, AGILE work
-environment.
-
-### Teacher of Science  
-<br>
-St Illtyd's Catholic High School, Fitzalan and Bassaleg High School  
-
-Cardiff, Newport,  Wales
-
-2007 to 2017
-
-- Delivery of biology and physics education to A level.
-- Experienced in the effective communication of technical subject matter.
-- Differentiation of learning material to diverse student requirements.
-
-
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-::: aside
 
 
 Skills {#skills}
@@ -130,9 +47,92 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 Last updated on `r format(Sys.Date(), format = '%d %B %Y')`.
 
 
-:::
+
+Main
+================================================================================
+
+Richard Leyshon {#title}
+--------------------------------------------------------------------------------
+
+### Senior Data Scientist
 
 
+
+
+Professional Experience {data-icon=suitcase data-concise=true}
+--------------------------------------------------------------------------------
+
+### Senior Data Scientist
+
+Office for National Statistics Data Science Campus
+
+Newport, Wales
+
+Jan 2022 to present
+
+### Data Science Lecturer
+
+Office for National Statistics Data Science Campus
+
+Newport, Wales
+
+Apr 2020 to Jan 2022
+
+
+### Statistician  
+
+Data Cymru  
+
+Cardiff, Wales
+
+Jan 2020 to Apr 2020
+
+- Automated cleaning & analysis of survey in R markdown.
+- Hypothesis testing with t-test, Mann-Whitney test and Monte Carlo power
+analysis, linear and logistic regression.
+- Stakeholder engagement with key external clients in translating user stories
+to prioritised feature requests.
+- Production and operationalising of geospatial analysis dashboards.
+- Querying odata feeds to update key organisational workflows to improve reproducibility, minimise human error and automate data workflows.
+
+### Financial Analyst
+
+Wales Audit Office  
+
+Cardiff, Wales  
+
+Sep 2018 to Dec 2019
+
+- Automation of counter fraud and error risk testing of general ledger
+transactions.
+- Development of Power BI Dashboards in order to support performance audit and thematic review.
+- Relational data modelling, quality in data linkage.
+- Development of applications  in RShiny for exploratory data analysis.
+- Publication of R markdown interactive reports to help inform auditor opinion
+- Assisting in the delivery of Power BI education programme to internal and external stakeholders.
+- Maintaining a high standard of output within a fast-paced, AGILE work
+environment.
+
+### Teacher of Science  
+
+St Illtyd's Catholic High School, Fitzalan and Bassaleg High School  
+
+Cardiff, Newport,  Wales
+
+2007 to 2017
+
+- Delivery of biology and physics education to A level.
+- Experienced in the effective communication of technical subject matter.
+- Differentiation of learning material to diverse student requirements.
+
+
+
+
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
 
 ### Acorn Learning Solutions
 Level 4 Diploma in Data Analytics
