@@ -57,8 +57,6 @@ Richard Leyshon {#title}
 ### Senior Data Scientist
 
 
-
-
 Professional Experience {data-icon=suitcase data-concise=true}
 --------------------------------------------------------------------------------
 
@@ -145,15 +143,10 @@ Cardiff, Wales
 
 Modules: 
 
-- Principles of Data Management Infrastructure
-- Data Analysis Tools
-- Data Science
-- Statistical Analysis of Data Sets
-- Designing and Developing Event-Driven Computer Programs
-- Designing and Developing Procedural Computer Programs
-- Advanced Data Representations and Manipulation for IT 
-
-
+- Principles of Data Management Infrastructure, Data Analysis Tools, Data Science.
+- Statistical Analysis of large data.
+- Designing and Developing Event-Driven and procedural Computer Programs.
+- Advanced Data Representations and Manipulation.
 
 ### University of Wales, Institute Cardiff
 Post Graduate Certificate in Education (Science)
@@ -162,13 +155,7 @@ Cardiff, Wales
 
 2006 to 2007
 
-Placements:
-
-- Windsor-Clive Primary School
-- Llanedeyrn high school
-- Whitchurch High School
-
-Qualified Teacher Status awarded
+- Qualified Teacher Status awarded
 
 
 ### Cardiff University
@@ -183,15 +170,9 @@ My degree contained several data-related modules including:
 - Two modules of **The Biological Application of Mathematics and Statistics**
 - Statistical analysis within [Minitab](https://www.minitab.com/en-us/products/minitab/)
 - **Conservation Ecology**
-- Use of statistical modelling to conduct population viability analysis 
+- Use of statistical modelling to conduct population habitat viability analysis 
 - Modelling techniques with [Vortex](https://www.cpsg.org/our-approach/science-based-tools/vortex) 
 - **Final Year Field Course**
-- Collection of field data for wildfowl populations
-- Minitab statistical analysis of data generated from this enquiry
+- Collection & analysis of field data for waterfowl populations & time-budget analysis.
 - **Laboratory Practical Enquiry**
-- Hypothesis testing in a wide range of scientific contexts
-- Application of the scientific method in ensuring reproducibility
-- Research, reporting and referencing
-
-
-
+- Reproducible analysis and hypothesis testing in a wide range of scientific contexts.
