@@ -1,0 +1,178 @@
+---
+title: "Richard Leyshon Curriculum Vitae"
+author: Richard Leyshon
+date: "`r format(Sys.Date(), format = '%d %B %Y')`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: TRUE
+---
+
+Aside
+====================================
+
+<div style="align:center;padding-left:20%;">
+![Wales feasible commute isochrones](www/wales_DarkBG.png)
+</div>
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+<div>
+- <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
+- <i class="fab fa-github-square"></i> [My GitHub profile](https://github.com/r-leyshon)
+- <i class="fab fa-twitter-square"></i> [Rich_L1984](https://twitter.com/Rich_L1984)
+- <i class="fab fa-linkedin"></i> [richard_leyshon](https://www.linkedin.com/in/richard-leyshon-316121163/)
+<br>
+</div>
+
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Package development & Reproducible Analytical Pipelines in Python & R.
+
+- Seasoned educator & passionate about building capability in Data Science.
+
+- Interested in geospatial methods, quality assurance of code for analysis & research, multimodal transport and agent-based modelling.
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r format(Sys.Date(), format = '%d %B %Y')`.
+
+
+
+Main
+================================================================================
+
+Richard Leyshon {#title}
+--------------------------------------------------------------------------------
+
+### Senior Data Scientist
+
+
+Professional Experience {data-icon=suitcase data-concise=true}
+--------------------------------------------------------------------------------
+
+### Senior Data Scientist
+
+Office for National Statistics Data Science Campus
+
+Newport, Wales
+
+Jan 2022 to present
+
+- Undertaking research & analysis in the domain of socio-economic inequality across the UK.
+- Multimodal transport modelling with Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data.
+- Agent-based approaches to policy prioritisation for UK local authorities.
+- Alongside colleague Jake Marshall, shortlisted for the [Analysis in Government Awards 2022](https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/) Inclusion category. Topic: Paving the way for accessible data science training in the public sector.
+
+### Data Science Lecturer
+
+Office for National Statistics Data Science Campus
+
+Newport, Wales
+
+Apr 2020 to Jan 2022
+
+- Teaching R and Python-based statistical courses to groups of analysts at UK public sector and international National Statistical Offices.
+- Establishment of capability diversity & inclusion process, process control, compliance and risk mitigation. 
+- Development of [accessrmd package available on CRAN](https://cran.r-project.org/package=accessrmd), used to help improve the accessibility of training materials for learners who benefit from the use of screen-readers.
+
+### Statistician  
+
+Data Cymru  
+
+Cardiff, Wales
+
+Jan 2020 to Apr 2020
+
+- Automated cleaning & analysis of survey in R markdown.
+- Hypothesis testing with t-test, Mann-Whitney test and Monte Carlo power
+analysis, linear and logistic regression.
+- Automation of ETL pipelines in data transformation projects, ensuring at risk childrens' care placements across authorities in Wales are securely updated and available to local authority stakeholders and Childrens' Commissioning Consortium Cymru.
+
+### Financial Analyst
+
+Wales Audit Office  
+
+Cardiff, Wales  
+
+Sep 2018 to Dec 2019
+
+- Automation of counter fraud and error risk testing of general ledger
+transactions.
+- Development of Power BI Dashboards & R Markdwown automated reports in order to support performance audit and thematic review.
+- Assisting in the delivery of Power BI education programme to internal and external stakeholders.
+
+### Teacher of Science  
+
+St Illtyd's Catholic High School, Fitzalan and Bassaleg High School  
+
+Cardiff, Newport,  Wales
+
+2007 to 2017
+
+- Delivery of biology and physics education to A level.
+- Experienced in the effective communication of technical subject matter.
+- Differentiation of learning material to diverse student requirements.
+
+
+
+
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Acorn Learning Solutions
+Level 4 Diploma in Data Analytics
+
+Cardiff, Wales
+
+2018 to 2019
+
+2 year course completed in 13 months
+
+Modules: 
+
+- Principles of Data Management Infrastructure, Data Analysis Tools, Data Science.
+- Statistical Analysis of large data.
+- Designing and Developing Event-Driven and procedural Computer Programs.
+- Advanced Data Representations and Manipulation.
+
+### University of Wales, Institute Cardiff
+Post Graduate Certificate in Education (Science)
+
+Cardiff, Wales
+
+2006 to 2007
+
+- Qualified Teacher Status awarded
+
+
+### Cardiff University
+Bsc (Hons) Biology, 2:1 awarded
+
+Cardiff, Wales
+
+2002 to 2005
+
+My degree contained several data-related modules including:
+
+- Two modules of **The Biological Application of Mathematics and Statistics**
+- Statistical analysis within [Minitab](https://www.minitab.com/en-us/products/minitab/)
+- **Conservation Ecology**
+- Use of statistical modelling to conduct population habitat viability analysis 
+- Modelling techniques with [Vortex](https://www.cpsg.org/our-approach/science-based-tools/vortex) 
+- **Final Year Field Course**
+- Collection & analysis of field data for waterfowl populations & time-budget analysis.
+- **Laboratory Practical Enquiry**
+- Reproducible analysis and hypothesis testing in a wide range of scientific contexts.
