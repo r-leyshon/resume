@@ -12,7 +12,8 @@ Aside
 ====================================
 
 <div style="align:center;padding-left:20%;">
-![Wales feasible commute isochrones](www/wales_DarkBG.png)
+<img src="./www/fin-conf-2020-bw.jpg" alt="Headshot at Future of Finance Conference 2020"/>
+
 </div>
 
 
@@ -22,8 +23,8 @@ Contact Info {#contact}
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
 - <i class="fab fa-github-square"></i> [My GitHub profile](https://github.com/r-leyshon)
-- <i class="fab fa-twitter-square"></i> [Rich_L1984](https://twitter.com/Rich_L1984)
-- <i class="fab fa-linkedin"></i> [richard_leyshon](https://www.linkedin.com/in/richard-leyshon-316121163/)
+- <i class="fab fa-twitter-square"></i> [@Rich_L1984 on Twitter](https://twitter.com/Rich_L1984)
+- <i class="fab fa-linkedin"></i> [My LinkedIn profile](https://www.linkedin.com/in/richard-leyshon-316121163/)
 <br>
 </div>
 
@@ -32,11 +33,11 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Package development & Reproducible Analytical Pipelines in Python & R.
+- Skills: Software development, reproducible analytical pipelines, quality assurance of code for analysis & research policy evaluation innovation.
 
-- Seasoned educator & passionate about building capability in Data Science.
+- Methods: Geospatial techniques, earth observation, multimodal transport modelling, agent-based modelling, network analysis, dashboarding, webscraping, web API engineering.
 
-- Interested in geospatial methods, quality assurance of code for analysis & research, multimodal transport and agent-based modelling.
+- Seasoned educator & passionate about coaching others to develop their data science capability.
 
 
 Disclaimer {#disclaimer}
