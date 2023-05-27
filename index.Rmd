@@ -1,6 +1,6 @@
 ---
-title: "Richard Leyshon Curriculum Vitae"
-author: Richard Leyshon
+title: "Rich Leyshon Curriculum Vitae"
+author: Rich Leyshon
 date: "`r format(Sys.Date(), format = '%d %B %Y')`"
 output:
   pagedown::html_resume:
@@ -11,32 +11,27 @@ output:
 Aside
 ====================================
 
-<div style="align:center;padding-left:20%;">
-![Wales feasible commute isochrones](www/wales_DarkBG.png)
-</div>
 
+<img src="./www/fin-conf-2020-bw.jpg" alt="Headshot at Future of Finance Conference 2020"/>
 
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
-- <i class="fab fa-github-square"></i> [My GitHub profile](https://github.com/r-leyshon)
-- <i class="fab fa-twitter-square"></i> [Rich_L1984](https://twitter.com/Rich_L1984)
-- <i class="fab fa-linkedin"></i> [richard_leyshon](https://www.linkedin.com/in/richard-leyshon-316121163/)
+- <i class="fab fa-github-square"></i> [r-leyshon on GitHub](https://github.com/r-leyshon)
+- <i class="fab fa-twitter-square"></i> [@Rich_L1984 on Twitter](https://twitter.com/Rich_L1984)
+- <i class="fab fa-linkedin"></i> [LinkedIn profile](https://www.linkedin.com/in/richard-leyshon-316121163/)
 <br>
 </div>
 
 
+- **Skills**: Software development, reproducible analytical pipelines, quality assurance of code for analysis & research, policy evaluation innovation.
 
-Skills {#skills}
---------------------------------------------------------------------------------
+- **Tools**: Python, Jupyter, R, RShiny, RMarkdown, SQL, Power BI, HTML, JavaScript, CSS,
+Quarto, Google Cloud Platform.
 
-- Package development & Reproducible Analytical Pipelines in Python & R.
-
-- Seasoned educator & passionate about building capability in Data Science.
-
-- Interested in geospatial methods, quality assurance of code for analysis & research, multimodal transport and agent-based modelling.
+- Seasoned educator & passionate about coaching others to develop their data science capability.
 
 
 Disclaimer {#disclaimer}
@@ -51,7 +46,7 @@ Last updated on `r format(Sys.Date(), format = '%d %B %Y')`.
 Main
 ================================================================================
 
-Richard Leyshon {#title}
+Rich Leyshon {#title}
 --------------------------------------------------------------------------------
 
 ### Senior Data Scientist
@@ -60,7 +55,7 @@ Richard Leyshon {#title}
 Professional Experience {data-icon=suitcase data-concise=true}
 --------------------------------------------------------------------------------
 
-### Senior Data Scientist
+### Senior Data Scientist, Levelling Up Squad
 
 Office for National Statistics Data Science Campus
 
@@ -69,11 +64,11 @@ Newport, Wales
 Jan 2022 to present
 
 - Undertaking research & analysis in the domain of socio-economic inequality across the UK.
-- Multimodal transport modelling with Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data.
-- Agent-based approaches to policy prioritisation for UK local authorities.
-- Alongside colleague Jake Marshall, shortlisted for the [Analysis in Government Awards 2022](https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/) Inclusion category. Topic: Paving the way for accessible data science training in the public sector.
+- Senior dev on [multimodal transport modelling](https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/) project with Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data. Innovative geometries published to [ONS Geoportal](https://geoportal.statistics.gov.uk/search?q=isochrones) as ESRI shapefiles. Subsequently used by Dept. for Levelling Up in analysing connectivity in Lincolnshire to help inform devolution deal.
+- Agent-based & network analysis techniques applied to policy prioritisation for UK local authorities progress against the UK government's Levelling Up agenda. An innovative exploratory study in partnership with the Alan Turing Institute. Leads to cordial invitation to attend Policy Priorities & AI for SDGs (PPAI4SDG) Feb 2024 event as an expert panellist.
+- Shortlisted for the [Analysis in Government Awards 2022](https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/) Inclusion category. Topic: Paving the way for accessible data science training in the public sector. Voted diversity & inclusion champion by Campus colleagues.
 
-### Data Science Lecturer
+### Data Science Lecturer, Campus Faculty
 
 Office for National Statistics Data Science Campus
 
@@ -81,8 +76,11 @@ Newport, Wales
 
 Apr 2020 to Jan 2022
 
-- Teaching R and Python-based statistical courses to groups of analysts at UK public sector and international National Statistical Offices.
-- Establishment of capability diversity & inclusion process, process control, compliance and risk mitigation. 
+- Promoted to Faculty Lead in Autumn 2022.
+- Coordination in development of advanced geospatial methods training. Developed in collaboration with Ordnance Survey, I personally translated Ordnce Survey's Python training into R. I then implemented a pilot of the course with the Data Science Graduate Programme cohort 2022, then coordinating the evaluation and improvement subsequent to rollout. This work subsequently won the Government Geography Profession's award for [contribution to public sector geography](https://twitter.com/GovGeo/status/1658156885676109832) in the Government in Geography Awards 2023. 
+- Delivering analytical training across UK public sector and [international National Statistical Offices](https://datasciencecampus.ons.gov.uk/taking-reproducible-analytical-pipelines-on-a-virtual-tour-first-stop-the-caribbean/).
+- Guest speaker at [Royal Statistical Society conference 2020](https://rss.org.uk/RSS/media/File-library/Conference/Programme-for-RSS-2020-Online-conference.pdf), subject: reproducibility & transparency. Returning speaker at [RSS 2021](https://rss.org.uk/news-publication/news-publications/2021/general-news/conference-2021-uk-data-science-as-a-global-public/), topic: UK Data Science as a global public good.
+- Personally establishing the DSC capability diversity & inclusion process, process control, compliance and risk mitigation, allowing the campus to fulfill its duty under the equality & diversity act 2010.
 - Development of [accessrmd package available on CRAN](https://cran.r-project.org/package=accessrmd), used to help improve the accessibility of training materials for learners who benefit from the use of screen-readers.
 
 ### Statistician  
@@ -133,7 +131,7 @@ Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ### Acorn Learning Solutions
-Level 4 Diploma in Data Analytics
+Diploma in Data Analytics
 
 Cardiff, Wales
 
@@ -155,24 +153,9 @@ Cardiff, Wales
 
 2006 to 2007
 
-- Qualified Teacher Status awarded
-
-
 ### Cardiff University
-Bsc (Hons) Biology, 2:1 awarded
+Bsc (Hons) Biology, 2:1
 
 Cardiff, Wales
 
 2002 to 2005
-
-My degree contained several data-related modules including:
-
-- Two modules of **The Biological Application of Mathematics and Statistics**
-- Statistical analysis within [Minitab](https://www.minitab.com/en-us/products/minitab/)
-- **Conservation Ecology**
-- Use of statistical modelling to conduct population habitat viability analysis 
-- Modelling techniques with [Vortex](https://www.cpsg.org/our-approach/science-based-tools/vortex) 
-- **Final Year Field Course**
-- Collection & analysis of field data for waterfowl populations & time-budget analysis.
-- **Laboratory Practical Enquiry**
-- Reproducible analysis and hypothesis testing in a wide range of scientific contexts.
