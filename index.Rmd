@@ -4,18 +4,14 @@ author: Rich Leyshon
 date: "`r format(Sys.Date(), format = '%d %B %Y')`"
 output:
   pagedown::html_resume:
-    # set it to true for a self-contained HTML page but it'll take longer to render
+    # set it to true to embed resorces, slower render
     self_contained: TRUE
-#knit: pagedown::chrome_print
-
 ---
 
 Aside
 ====================================
 
-
-<img src="./www/fin-conf-2020-bw.jpg" alt="Headshot at Future of Finance Conference 2020"/>
-
+<img src="./www/fin-conf-2020-bw.jpg" alt="Headshot"/>
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -26,7 +22,6 @@ Contact Info {#contact}
 - <i class="fab fa-linkedin"></i> <a href=https://www.linkedin.com/in/richard-leyshon-316121163/ target="_blank">LinkedIn</a>
 <br>
 </div>
-
 
 - **Skills**: Software development, CI:CD, geographic information systems,
 multimodal transport modelling, reproducible analytical pipelines, quality
@@ -46,8 +41,6 @@ This resumé was built with <a href=https://github.com/rstudio/pagedown target="
 
 Last updated on `r format(Sys.Date(), format = '%d %B %Y')`.
 
-
-
 Main
 ================================================================================
 
@@ -55,7 +48,6 @@ Rich Leyshon {#title}
 --------------------------------------------------------------------------------
 
 ### Senior Data Scientist
-
 
 Professional Experience {data-icon=suitcase data-concise=true}
 --------------------------------------------------------------------------------
@@ -68,10 +60,24 @@ Newport, Wales
 
 Jan 2022 to present
 
-- Undertaking research & analysis in the domain of socio-economic inequality across the UK.
-- Senior dev on <a href=https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/ target="_blank">Output Area Public Transport Isochrones</a>, using Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data. Innovative geometries published to <a href=https://geoportal.statistics.gov.uk/search?q=isochrones target="_blank">ONS Geoportal</a>. Subsequently used by Dept. for Levelling Up in analysing connectivity to help inform regional devolution deals.
-- Agent-based & network analysis techniques applied to policy prioritisation for UK local authorities progress against the UK government's Levelling Up agenda. An innovative exploratory study in partnership with the Alan Turing Institute. Leads to cordial invitation to attend Policy Priorities & AI for SDGs (PPAI4SDG) Feb 2024 event as an expert panellist.
-- Shortlisted for the <a href=https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/ target="_blank">Analysis in Government Awards 2022</a> Inclusion category. Topic: Paving the way for accessible data science training in the public sector.
+- Undertaking research & analysis in the domain of socio-economic inequality
+across the UK.
+- Senior dev on
+<a href=https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/ target="_blank">Output Area Public Transport Isochrones</a>
+, using Open Trip Planner Java library, python GIS stack, Open Street Map &
+open source public transport schedule data. Innovative geometries published to
+<a href=https://geoportal.statistics.gov.uk/search?q=isochrones target="_blank">ONS Geoportal</a>
+. Subsequently used by Dept. for Levelling Up in analysing connectivity to help
+inform regional devolution deals.
+- Agent-based & network analysis techniques applied to policy prioritisation
+for UK local authorities progress against the UK government's Levelling Up
+agenda. An innovative exploratory study in partnership with the Alan Turing
+Institute. Leads to cordial invitation to attend Policy Priorities & AI for
+SDGs (PPAI4SDG) Feb 2024 event as an expert panellist.
+- Shortlisted for the
+<a href=https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/ target="_blank">Analysis in Government Awards 2022</a>
+Inclusion category. Topic: Paving the way for accessible data science training
+in the public sector.
 
 ### Data Science Lecturer, Campus Faculty
 
@@ -82,11 +88,28 @@ Newport, Wales
 Apr 2020 to Jan 2022
 
 - Promoted to Faculty Lead in Autumn 2022.
-- Coordination in development of advanced geospatial methods training. Developed in collaboration with Ordnance Survey, I personally translated Ordnce Survey's Python training into R. I then implemented a pilot of the course with the Data Science Graduate Programme cohort 2022, then coordinating the evaluation and improvement subsequent to rollout. This work subsequently won the Government Geography Profession's award for <a href=https://twitter.com/GovGeo/status/1658156885676109832 target="_blank">contribution to public sector geography</a> in the Government in Geography Awards 2023. 
-- Delivering analytical training across UK public sector and <a href=https://datasciencecampus.ons.gov.uk/taking-reproducible-analytical-pipelines-on-a-virtual-tour-first-stop-the-caribbean/ target="_blank">international National Statistical Offices</a>.
-- Guest speaker at <a href=https://rss.org.uk/RSS/media/File-library/Conference/Programme-for-RSS-2020-Online-conference.pdf target="_blank">Royal Statistical Society conference 2020</a>, subject: reproducibility & transparency. Returning speaker at <a href=https://rss.org.uk/news-publication/news-publications/2021/general-news/conference-2021-uk-data-science-as-a-global-public/ target="_blank">RSS 2021</a>, topic: UK Data Science as a global public good.
-- Personally establishing the DSC capability diversity & inclusion process, process control, compliance and risk mitigation, allowing the campus to fulfill its duty under the equality & diversity act 2010.
-- Lead developer of <a href=https://cran.r-project.org/package=accessrmd target="_blank">accessrmd package available on CRAN</a>, used to help rmarkdown documents meet government digital accessibility standard.
+- Coordination in development of advanced geospatial methods training.
+Developed in collaboration with Ordnance Survey, I personally translated
+Ordnance Survey's Python training into R. and coordinated a pilot of the course
+with the Data Science Graduate Programme cohort 2022, ensuring efefctive
+feedback, evaluation and improvement subsequent to rollout for 2023 cohort.
+This work subsequently won the Government Geography Profession's award for
+<a href=https://twitter.com/GovGeo/status/1658156885676109832 target="_blank">contribution to public sector geography</a>
+in the Government in Geography Awards 2023. 
+- Delivering analytical training across UK public sector and
+<a href=https://datasciencecampus.ons.gov.uk/taking-reproducible-analytical-pipelines-on-a-virtual-tour-first-stop-the-caribbean/ target="_blank">international National Statistical Offices</a>.
+- Guest speaker at
+<a href=https://rss.org.uk/RSS/media/File-library/Conference/Programme-for-RSS-2020-Online-conference.pdf target="_blank">Royal Statistical Society conference 2020</a>,
+subject: reproducibility & transparency. Returning speaker at
+<a href=https://rss.org.uk/news-publication/news-publications/2021/general-news/conference-2021-uk-data-science-as-a-global-public/ target="_blank">RSS 2021</a>,
+topic: UK Data Science as a global public good.
+- Established the Data Science Campus capability diversity &
+inclusion process, process control, compliance and risk mitigation. allowing
+the campus to fulfill its duty under the equality & diversity act 2010.
+- Lead developer of
+<a href=https://cran.r-project.org/package=accessrmd target="_blank">accessrmd package available on CRAN</a>,
+used to help rmarkdown documents meet government digital accessibility
+standard.
 
 ### Statistician  
 
@@ -96,10 +119,12 @@ Cardiff, Wales
 
 Jan 2020 to Apr 2020
 
-- Automated cleaning & analysis of survey in R markdown.
-- Hypothesis testing with t-test, Mann-Whitney test and Monte Carlo power
-analysis, linear and logistic regression.
-- Automation of ETL pipelines in data transformation projects, ensuring at risk childrens' care placements across authorities in Wales are securely updated and available to local authority stakeholders and Childrens' Commissioning Consortium Cymru.
+- Automated cleaning & analysis of survey responses with parameterised
+reporting in R markdown.
+- Automation of ETL pipelines in data transformation projects, ensuring at
+risk childrens' care placements across authorities in Wales are securely
+updated and available to local authority stakeholders and Childrens'
+Commissioning Consortium Cymru.
 
 ### Financial Analyst
 
@@ -111,8 +136,10 @@ Sep 2018 to Dec 2019
 
 - Automation of counter fraud and error risk testing of general ledger
 transactions.
-- Development of Power BI Dashboards & R Markdwown automated reports in order to support performance audit and thematic review.
-- Assisting in the delivery of Power BI education programme to internal and external stakeholders.
+- Development of Power BI Dashboards & R Markdown automated reports in order
+to support performance audit and thematic review.
+- Assisting in the delivery of Power BI education programme to internal and
+external stakeholders. Delivered nationally at 3 venues.
 
 ### Teacher of Science  
 
@@ -122,15 +149,9 @@ Cardiff, Newport,  Wales
 
 2007 to 2017
 
-- Delivery of biology and physics education to A level.
+- Delivery of biology and physics education to A level standard.
 - Experienced in the effective communication of technical subject matter.
 - Differentiation of learning material to diverse student requirements.
-
-
-
-
-
-
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -146,7 +167,8 @@ Cardiff, Wales
 
 Modules: 
 
-- Principles of Data Management Infrastructure, Data Analysis Tools, Data Science.
+- Principles of Data Management Infrastructure, Data Analysis Tools,
+Data Science.
 - Statistical Analysis of large data.
 - Designing and Developing Event-Driven and procedural Computer Programs.
 - Advanced Data Representations and Manipulation.
