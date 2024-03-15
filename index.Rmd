@@ -92,13 +92,13 @@ Newport, Wales
 
 Apr 2020 to Jan 2022
 
-- Promoted to Faculty Lead in Autumn 2022. Successfully led team of lecturers
-in preparing curriculum, compliance and administrative preparation for 5x
+- Promoted to Faculty Lead in Autumn 2022. Successfully led a team of lecturers
+in preparing curriculum, compliance and administrative preparation for a 5x
 increase in Data Science Graduate Programme cohort size.
 - Coordination in development of advanced geospatial methods training.
 Developed in collaboration with Ordnance Survey, I personally translated
 Ordnance Survey's Python training into R. and coordinated a pilot of the course
-with the Data Science Graduate Programme cohort 2022, ensuring efefctive
+with the Data Science Graduate Programme cohort 2022, ensuring effective
 feedback, evaluation and improvement subsequent to rollout for 2023 cohort.
 This work subsequently won the Government Geography Profession's award for
 <a href=https://twitter.com/GovGeo/status/1658156885676109832 target="_blank">contribution to public sector geography</a>
@@ -112,7 +112,7 @@ subject: reproducibility & transparency. Returning speaker at
 topic: UK Data Science as a global public good.
 - Established the Data Science Campus capability diversity &
 inclusion process, process control, compliance and risk mitigation. allowing
-the campus to fulfill its duty under the equality & diversity act 2010.
+the campus to fulfil its duty under the equality & diversity act 2010.
 - Lead developer of
 <a href=https://cran.r-project.org/package=accessrmd target="_blank">accessrmd package available on CRAN</a>,
 used to help rmarkdown documents meet government digital accessibility
