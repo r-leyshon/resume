@@ -21,25 +21,28 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
-- <i class="fab fa-github-square"></i> [r-leyshon](https://github.com/r-leyshon)
-- <i class="fab fa-x-twitter"></i> [@Rich_L1984](https://twitter.com/Rich_L1984)
-- <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/richard-leyshon-316121163/)
+- <i class="fab fa-github-square"></i> <a href=https://github.com/r-leyshon target="_blank">r-leyshon</a>
+- <i class="fab fa-x-twitter"></i> <a href=https://twitter.com/Rich_L1984 target="_blank">@Rich_L1984</a>
+- <i class="fab fa-linkedin"></i> <a href=https://www.linkedin.com/in/richard-leyshon-316121163/ target="_blank">LinkedIn</a>
 <br>
 </div>
 
 
-- **Skills**: Software development, reproducible analytical pipelines, quality assurance of code for analysis & research, policy evaluation innovation.
+- **Skills**: Software development, CI:CD, geographic information systems,
+multimodal transport modelling, reproducible analytical pipelines, quality
+assurance of code for analysis & research, agent-based methods.
 
-- **Tools**: Python, Jupyter, R, RShiny, RMarkdown, SQL, Power BI, HTML, JavaScript, CSS,
-Quarto, Google Cloud Platform.
+- **Tools**: Python, Shell, Google Cloud Platform, R, Shiny, Quarto, SQL,
+Power BI, JavaScript.
 
-- Seasoned educator & passionate about coaching others to develop their data science capability.
-
+- Seasoned educator. Passionate Data Science coach. Proponent of
+<a href=https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html target="_blank">ONS Duck Book</a>
+and <a href=https://the-turing-way.netlify.app/index.html target="_blank">The Turing Way</a>.
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+This resumé was built with <a href=https://github.com/rstudio/pagedown target="_blank">**pagedown**</a>.
 
 Last updated on `r format(Sys.Date(), format = '%d %B %Y')`.
 
@@ -66,9 +69,9 @@ Newport, Wales
 Jan 2022 to present
 
 - Undertaking research & analysis in the domain of socio-economic inequality across the UK.
-- Senior dev on [multimodal transport modelling](https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/) project with Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data. Innovative geometries published to [ONS Geoportal](https://geoportal.statistics.gov.uk/search?q=isochrones) as ESRI shapefiles. Subsequently used by Dept. for Levelling Up in analysing connectivity in Lincolnshire to help inform devolution deal.
+- Senior dev on <a href=https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/ target="_blank">Output Area Public Transport Isochrones</a>, using Open Trip Planner Java library, python GIS stack, Open Street Map & open source public transport schedule data. Innovative geometries published to <a href=https://geoportal.statistics.gov.uk/search?q=isochrones target="_blank">ONS Geoportal</a>. Subsequently used by Dept. for Levelling Up in analysing connectivity to help inform regional devolution deals.
 - Agent-based & network analysis techniques applied to policy prioritisation for UK local authorities progress against the UK government's Levelling Up agenda. An innovative exploratory study in partnership with the Alan Turing Institute. Leads to cordial invitation to attend Policy Priorities & AI for SDGs (PPAI4SDG) Feb 2024 event as an expert panellist.
-- Shortlisted for the [Analysis in Government Awards 2022](https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/) Inclusion category. Topic: Paving the way for accessible data science training in the public sector. Voted diversity & inclusion champion by Campus colleagues.
+- Shortlisted for the <a href=https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/ target="_blank">Analysis in Government Awards 2022</a> Inclusion category. Topic: Paving the way for accessible data science training in the public sector.
 
 ### Data Science Lecturer, Campus Faculty
 
@@ -79,11 +82,11 @@ Newport, Wales
 Apr 2020 to Jan 2022
 
 - Promoted to Faculty Lead in Autumn 2022.
-- Coordination in development of advanced geospatial methods training. Developed in collaboration with Ordnance Survey, I personally translated Ordnce Survey's Python training into R. I then implemented a pilot of the course with the Data Science Graduate Programme cohort 2022, then coordinating the evaluation and improvement subsequent to rollout. This work subsequently won the Government Geography Profession's award for [contribution to public sector geography](https://twitter.com/GovGeo/status/1658156885676109832) in the Government in Geography Awards 2023. 
-- Delivering analytical training across UK public sector and [international National Statistical Offices](https://datasciencecampus.ons.gov.uk/taking-reproducible-analytical-pipelines-on-a-virtual-tour-first-stop-the-caribbean/).
-- Guest speaker at [Royal Statistical Society conference 2020](https://rss.org.uk/RSS/media/File-library/Conference/Programme-for-RSS-2020-Online-conference.pdf), subject: reproducibility & transparency. Returning speaker at [RSS 2021](https://rss.org.uk/news-publication/news-publications/2021/general-news/conference-2021-uk-data-science-as-a-global-public/), topic: UK Data Science as a global public good.
+- Coordination in development of advanced geospatial methods training. Developed in collaboration with Ordnance Survey, I personally translated Ordnce Survey's Python training into R. I then implemented a pilot of the course with the Data Science Graduate Programme cohort 2022, then coordinating the evaluation and improvement subsequent to rollout. This work subsequently won the Government Geography Profession's award for <a href=https://twitter.com/GovGeo/status/1658156885676109832 target="_blank">contribution to public sector geography</a> in the Government in Geography Awards 2023. 
+- Delivering analytical training across UK public sector and <a href=https://datasciencecampus.ons.gov.uk/taking-reproducible-analytical-pipelines-on-a-virtual-tour-first-stop-the-caribbean/ target="_blank">international National Statistical Offices</a>.
+- Guest speaker at <a href=https://rss.org.uk/RSS/media/File-library/Conference/Programme-for-RSS-2020-Online-conference.pdf target="_blank">Royal Statistical Society conference 2020</a>, subject: reproducibility & transparency. Returning speaker at <a href=https://rss.org.uk/news-publication/news-publications/2021/general-news/conference-2021-uk-data-science-as-a-global-public/ target="_blank">RSS 2021</a>, topic: UK Data Science as a global public good.
 - Personally establishing the DSC capability diversity & inclusion process, process control, compliance and risk mitigation, allowing the campus to fulfill its duty under the equality & diversity act 2010.
-- Development of [accessrmd package available on CRAN](https://cran.r-project.org/package=accessrmd), used to help improve the accessibility of training materials for learners who benefit from the use of screen-readers.
+- Lead developer of <a href=https://cran.r-project.org/package=accessrmd target="_blank">accessrmd package available on CRAN</a>, used to help rmarkdown documents meet government digital accessibility standard.
 
 ### Statistician  
 
