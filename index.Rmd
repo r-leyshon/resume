@@ -21,9 +21,9 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
-- <i class="fab fa-github-square"></i> [r-leyshon on GitHub](https://github.com/r-leyshon)
-- <i class="fab fa-twitter-square"></i> [@Rich_L1984 on Twitter](https://twitter.com/Rich_L1984)
-- <i class="fab fa-linkedin"></i> [LinkedIn profile](https://www.linkedin.com/in/richard-leyshon-316121163/)
+- <i class="fab fa-github-square"></i> [r-leyshon](https://github.com/r-leyshon)
+- <i class="fab fa-x-twitter"></i> [@Rich_L1984](https://twitter.com/Rich_L1984)
+- <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/richard-leyshon-316121163/)
 <br>
 </div>
 
