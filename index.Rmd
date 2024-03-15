@@ -67,8 +67,9 @@ priorities across government.
 - Currently working on
 <a href=https://datasciencecampus.ons.gov.uk/comparing-international-transport-performance-in-urban-centres-upcoming-work target="_blank">UK and international urban centre transport performance</a>,
 analysing the equality of access to opportunities by public transit. 
-- Matrix management of development team behind ONS Data Science Campus guidance
-on <a href=https://datasciencecampus.github.io/coding-in-the-open/ target="_blank">Open Source Development</a>.
+- Led a cross division working group on open source standards, resulting in ONS
+Data Science Campus guidance on
+<a href=https://datasciencecampus.github.io/coding-in-the-open/ target="_blank">Open Source Development</a>.
 - Senior dev on
 <a href=https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/ target="_blank">Output Area Public Transport Isochrones</a>
 . Innovative geometries published to
