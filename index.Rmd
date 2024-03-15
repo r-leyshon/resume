@@ -17,10 +17,10 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
-- <i class="fab fa-github-square"></i><a href=https://github.com/r-leyshon target="_blank">r-leyshon</a>
-- <i class="fab fa-x-twitter"></i><a href=https://twitter.com/Rich_L1984 target="_blank">@Rich_L1984</a>
-- <i class="fab fa-linkedin"></i><a href=https://www.linkedin.com/in/richard-leyshon-316121163/ target="_blank">LinkedIn</a>
-- <i class="fab fa-blog"></i><a href=https://thedatasavvycorner.com/ target="_blank">TheDataSavvyCorner</a>
+- <i class="fab fa-github-square"></i> <a href=https://github.com/r-leyshon target="_blank">r-leyshon</a>
+- <i class="fab fa-x-twitter"></i> <a href=https://twitter.com/Rich_L1984 target="_blank">@Rich_L1984</a>
+- <i class="fab fa-linkedin"></i> <a href=https://www.linkedin.com/in/richard-leyshon-316121163/ target="_blank">LinkedIn</a>
+-   `r fontawesome::fa(name = "fas fa-user-pen")` <a href=https://thedatasavvycorner.com/ target="_blank">TheDataSavvyCorner</a>
 <br>
 </div>
 
