@@ -17,9 +17,10 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 <div>
 - <i class="fa fa-envelope"></i> leyshonrr@hotmail.co.uk
-- <i class="fab fa-github-square"></i> <a href=https://github.com/r-leyshon target="_blank">r-leyshon</a>
-- <i class="fab fa-x-twitter"></i> <a href=https://twitter.com/Rich_L1984 target="_blank">@Rich_L1984</a>
-- <i class="fab fa-linkedin"></i> <a href=https://www.linkedin.com/in/richard-leyshon-316121163/ target="_blank">LinkedIn</a>
+- <i class="fab fa-github-square"></i><a href=https://github.com/r-leyshon target="_blank">r-leyshon</a>
+- <i class="fab fa-x-twitter"></i><a href=https://twitter.com/Rich_L1984 target="_blank">@Rich_L1984</a>
+- <i class="fab fa-linkedin"></i><a href=https://www.linkedin.com/in/richard-leyshon-316121163/ target="_blank">LinkedIn</a>
+- <i class="fab fa-blog"></i><a href=https://thedatasavvycorner.com/ target="_blank">TheDataSavvyCorner</a>
 <br>
 </div>
 
@@ -52,7 +53,7 @@ Rich Leyshon {#title}
 Professional Experience {data-icon=suitcase data-concise=true}
 --------------------------------------------------------------------------------
 
-### Senior Data Scientist, Levelling Up Squad
+### Senior Data Scientist, Strategic Tools & Technologies Team
 
 Office for National Statistics Data Science Campus
 
@@ -60,20 +61,24 @@ Newport, Wales
 
 Jan 2022 to present
 
-- Undertaking research & analysis in the domain of socio-economic inequality
-across the UK.
+- Managing small teams of data scientists, optimising the development cycle,
+agile delivery of quality-assured systems in response to emerging analytical
+priorities across government.
+- Currently working on
+<a href=https://datasciencecampus.ons.gov.uk/comparing-international-transport-performance-in-urban-centres-upcoming-work target="_blank">UK and international urban centre transport performance</a>,
+analysing the equality of access to opportunities by public transit. 
+- Matrix management of development team behind ONS Data Science Campus guidance
+on <a href=https://datasciencecampus.github.io/coding-in-the-open/ target="_blank">Open Source Development</a>.
 - Senior dev on
 <a href=https://datasciencecampus.ons.gov.uk/using-open-data-to-understand-hyperlocal-differences-in-uk-public-transport-availability/ target="_blank">Output Area Public Transport Isochrones</a>
-, using Open Trip Planner Java library, python GIS stack, Open Street Map &
-open source public transport schedule data. Innovative geometries published to
+. Innovative geometries published to
 <a href=https://geoportal.statistics.gov.uk/search?q=isochrones target="_blank">ONS Geoportal</a>
-. Subsequently used by Dept. for Levelling Up in analysing connectivity to help
-inform regional devolution deals.
-- Agent-based & network analysis techniques applied to policy prioritisation
-for UK local authorities progress against the UK government's Levelling Up
-agenda. An innovative exploratory study in partnership with the Alan Turing
-Institute. Leads to cordial invitation to attend Policy Priorities & AI for
-SDGs (PPAI4SDG) Feb 2024 event as an expert panellist.
+.
+- Agent-Based Modelling & network analysis. Policy evaluation of UK authorities
+progress against the UK government's Levelling Up agenda.
+- Expert panellist at The Alan Turing Institute's
+<a href=https://www.turing.ac.uk/events/policy-priorities-ai-sdgs target="_blank">Policy Priorities & AI for SDGs</a>
+event.
 - Shortlisted for the
 <a href=https://analysisfunction.civilservice.gov.uk/news/analysis-in-government-awards-2022-shortlist/ target="_blank">Analysis in Government Awards 2022</a>
 Inclusion category. Topic: Paving the way for accessible data science training
@@ -87,7 +92,9 @@ Newport, Wales
 
 Apr 2020 to Jan 2022
 
-- Promoted to Faculty Lead in Autumn 2022.
+- Promoted to Faculty Lead in Autumn 2022. Successfully led team of lecturers
+in preparing curriculum, compliance and administrative preparation for 5x
+increase in Data Science Graduate Programme cohort size.
 - Coordination in development of advanced geospatial methods training.
 Developed in collaboration with Ordnance Survey, I personally translated
 Ordnance Survey's Python training into R. and coordinated a pilot of the course
