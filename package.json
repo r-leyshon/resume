@@ -1,0 +1,34 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This resume is hosted on [GitHub Pages](https://r-leyshon.github.io/resume/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-leyshon/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/r-leyshon/resume/issues"
+  },
+  "homepage": "https://github.com/r-leyshon/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-class": "^0.1.2",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-professional": "^1.1.0",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-slick": "^0.1.16",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "resumed": "^6.1.0"
+  }
+}

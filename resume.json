@@ -1,0 +1,306 @@
+{
+    "meta": {
+      "theme": "jsonresume-theme-kendall"
+    },
+    "basics": {
+      "name": "Rich Leyshon",
+      "label": "Senior Data Scientist / Ai Engineer",
+      "image": "./www/fin-conf-2020-bw.jpg",
+      "email": "leyshonrr@hotmail.co.uk",
+      "url": "https://thedatasavvycorner.com/",
+      "summary": "Senior Ai Engineer, specialising in applied agentic and generative Ai, WSGI web applications, Ai observability, geospatial modelling, and production-grade analytical systems. Reimagining public sector delivery through responsible Ai adoption.",
+      "location": {
+        "city": "Cardiff / Newport",
+        "region": "Wales",
+        "countryCode": "GB"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "r-leyshon",
+          "url": "https://github.com/r-leyshon"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "richard-leyshon",
+          "url": "https://www.linkedin.com/in/richard-leyshon-316121163/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Ministry of Justice – Ai Justice Unit",
+        "position": "Senior Ai Engineer",
+        "url": "https://ai.justice.gov.uk/",
+        "startDate": "2025-08-26",
+        "summary": "Ai Engineer responsible for scaling national Ai services, building observability platforms, and developing applied agentic Ai solutions.",
+        "highlights": [
+        "<strong>Justice Transcribe</strong>",
+        "Senior Ai engineer on <a href=\"https://ai.justice.gov.uk/ai-in-action/speech-ai\" target=\"_blank\">Justice Transcribe</a>, automating probation meeting documentation using Ai transcription and LLM-generated summaries.",
+        "Scaled the service from a 300-user pilot to a national rollout for 40,000 probation officers, enabling consistent, compliant meeting records.",
+        "Delivered 34,000+ transcriptions and summaries by Nov 2025 with a 4.7/5 average satisfaction score.",
+        "Added robust engineering practices including automated tests, coverage reporting, dependency validation, and secure CI/CD workflows.",
+        "<strong>Ai Observability & Langfuse Platform</strong>",
+        "Maintainer of the Unit's Langfuse observability backend, supporting monitoring and evaluation of all LLM completions across the directorate.",
+        "Deployed a self-hosted Langfuse instance in Azure using Terraform and Helm, with automated SSL (cert-manager + Let's Encrypt), DNS delegation, and hardened networking.",
+        "Built comprehensive LLM quality monitoring pipelines: async context tracing, prompt versioning, latency and cost dashboards, and LLM-as-a-judge evaluation.",
+        "Engineered reliable LLM integration pipelines using Vertex Ai and Azure Cognitive Services with structured output, retry/fallback logic, and content moderation.",
+        "<strong>Innovation & Prototyping Ai</strong>",
+        "Created <strong>Magic Mail</strong>, 3 month tech spike to proof-of-concept an agentic MicroSoft Outlook automation system that orchestrates inbox management, applies user-defined management policies, drafts responses, and integrates with Microsoft Entra SSO via MSAL.",
+        "Developed <strong>MoJ GitHub Chat</strong>, a prototype for semantic search across organisation repositories using RAG and agentic orchestration (<a href=\"https://richleysh84.shinyapps.io/moj-github-chat-dev/\" target=\"_blank\">public version</a>).",
+        "Built the <strong>Daemon Ai Assistant</strong> — prototyped an autonomous reviewer for document analysis using Vercel v0, Next.js, and FastAPI (<a href=\"https://daemon-ai-app.vercel.app/\" target=\"_blank\">demo</a>).",
+        "Built an Ai-powered prototype news crawler using LangChain and the DuckDuckGo MCP server to ingest relevant articles into ChromaDB for RAG-based semantic search.",
+        "<strong>Governance & Capability</strong>",
+        "Delivered interactive technical capability workshops on test-driven development to Justice Digital data scientists."
+        ]
+
+      },
+      {
+        "name": "Office for National Statistics – Data Science Campus",
+        "position": "Senior Data Scientist, Strategic Tools & Technologies Team",
+        "url": "https://datasciencecampus.ons.gov.uk/",
+        "startDate": "2022-01-01",
+        "endDate": "2025-08-25",
+        "summary": "Managed data science teams to innovate and deliver on emerging analytical priorities and tools. Delivering quality-assured systems and granular, applied geospatial analysis at national scale.",
+        "highlights": [
+          "Led work on <a href=\"https://datasciencecampus.ons.gov.uk/comparing-international-transport-performance-in-urban-centres-upcoming-work/\" target=\"_blank\">urban public transport performance</a> across UK and international cities.",
+          "Chaired the working group producing ONS Campus guidance on open-source development standards, leading to the publication of the <a href=\"https://datasciencecampus.github.io/coding-in-the-open/\" target=\"_blank\">ONS Campus Open Source Development Guidance</a>.",
+          "Lead on research partnership with Alan Turing Institute, applying constrained optimisation research using agent-based modelling and network analysis to evaluate Local Authority progress against the UK Levelling Up agenda policy priorities.",
+          "Expert panellist at The Alan Turing Institute's <a href=\"https://www.turing.ac.uk/events/policy-priorities-ai-sdgs\" target=\"_blank\">'Policy Priorities & Ai for SDGs'</a>.",
+          "Scrum Master certified, experienced in Agile DSDM project management, kanban and Gantt."
+        ]
+      },
+      {
+        "name": "Office for National Statistics – Data Science Campus",
+        "position": "Head of Faculty & Data Science Lecturer, Campus Faculty",
+        "url": "https://datasciencecampus.ons.gov.uk/",
+        "startDate": "2020-04-01",
+        "endDate": "2022-01-01",
+        "summary": "Lecturer and faculty lead delivering training and capability building across the UK public sector and international NSOs.",
+        "highlights": [
+          "Promoted to Faculty Lead, managing a multi-disciplinary service delivery team in preparation for a 5× expansion of the Cross Government Data Science Graduate Training Programme.",
+          "Led development of advanced geospatial training in collaboration with Ordnance Survey, including preparation of advanced geospatial course content for UK government departments, Caribbean statistical offices, and Kenya National Bureau of Statistics.",
+          "Guest speaker at <a href=\"https://rss.org.uk/RSS/media/File-library/Conference/Programme-for-RSS-2020-Online-conference.pdf\" target=\"_blank\">Royal Statistical Society 2020</a> and <a href=\"https://rss.org.uk/news-publication/news-publications/2021/general-news/conference-2021-uk-data-science-as-a-global-public/\" target=\"_blank\">2021</a> conferences on transparency, reproducibility in national statistics and UK Data Science as a global public good."
+        ]
+      },
+      {
+        "name": "Data Cymru",
+        "position": "Statistician",
+        "startDate": "2020-01-01",
+        "endDate": "2020-04-01",
+        "summary": "Automation and secure ETL development for local authority datasets.",
+        "highlights": [
+          "Automated survey analysis and parameterised reporting in R Markdown.",
+          "Quality Assurance of Local Authority redistribution modelling in Python.",
+          "Developed ETL pipelines powering secure updates of children’s care placement data for Welsh authorities, combining Power BI frontend with Python ETL pipeline."
+        ]
+      },
+      {
+        "name": "Wales Audit Office",
+        "position": "Financial Analyst",
+        "startDate": "2018-09-01",
+        "endDate": "2019-12-01",
+        "summary": "Automated analytics for audit, fraud detection, and performance review.",
+        "highlights": [
+          "Automated counter-fraud testing of general ledger transactions.",
+          "Developed Power BI dashboards and automated R Markdown reporting.",
+          "Delivered Power BI training nationally to internal and external stakeholders."
+        ]
+      },
+      {
+        "name": "St Illtyd's, Fitzalan, and Bassaleg High Schools",
+        "position": "Teacher of Science",
+        "startDate": "2007-01-01",
+        "endDate": "2017-12-01",
+        "summary": "Teacher of Science delivering biology, chemistry and physics to A-level standard.",
+        "highlights": [
+          "Curated differentiated materials to support varied learning needs.",
+          "Developed advanced communication, time management and conflict resolution skills.",
+          "Experienced in the effective communication of technical subject matter to diverse student audiences."
+        ]
+      }
+    ],
+  
+    "education": [
+      {
+        "institution": "Acorn Learning Solutions",
+        "area": "Data Analytics",
+        "studyType": "Diploma",
+        "startDate": "2018-01-01",
+        "endDate": "2019-12-01",
+        "courses": [
+          "Data management infrastructure, analytical tools, data science",
+          "Big data analytics, distributed and cloud compute, data engineering",
+          "Event-driven and procedural programming"
+        ]
+      },
+      {
+        "institution": "University of Wales Institute, Cardiff",
+        "area": "Science",
+        "studyType": "Post Graduate Certificate in Education",
+        "startDate": "2006-01-01",
+        "endDate": "2007-12-01"
+      },
+      {
+        "institution": "Cardiff University",
+        "area": "Biology",
+        "studyType": "BSc (Hons)",
+        "startDate": "2002-01-01",
+        "endDate": "2005-12-01",
+        "score": "2:1"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Government Geography Profession Award",
+        "date": "2023",
+        "awarder": "Government Geography Profession",
+        "summary": "Awarded for outstanding contribution to public sector geography, recognising leadership in developing advanced geospatial training content in collaboration with Ordnance Survey."
+      },
+      {
+        "title": "Analysis in Government Awards - Shortlisted (Inclusion)",
+        "date": "2022",
+        "awarder": "Government Analysis Function",
+        "summary": "Shortlisted for enabling accessible data science training across government and international statistical offices."
+      }
+    ],
+    "publications": [
+      {
+        "name": "UK Output Area Public Transport Isochrones",
+        "publisher": "ONS Data Science Campus",
+        "releaseDate": "2022",
+        "url": "https://geoportal.statistics.gov.uk/search?q=isochrones",
+        "summary": "Lead developer on statistical publication of novel accessibility geometries and metrics for public transport performance across all UK Output Areas, published to ONS Geoportal."
+      },
+      {
+        "name": "Reproducible Analytical Pipelines Training Programme",
+        "publisher": "ONS Data Science Campus",
+        "releaseDate": "2020-2022",
+        "url": "https://datasciencecampus.ons.gov.uk/taking-reproducible-analytical-pipelines-on-a-virtual-tour-first-stop-the-caribbean/",
+        "summary": "Developed and delivered comprehensive training packages on reproducible analysis, programming, version control, and big data analytics across UK government departments, Caribbean statistical offices, and Kenya National Bureau of Statistics."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "level": "Expert",
+        "keywords": [
+          "Python",
+          "R",
+          "JavaScript",
+          "SQL"
+        ]
+      },
+      {
+        "name": "Ai & Machine Learning",
+        "level": "Expert",
+        "keywords": [
+          "Generative Ai",
+          "Agentic Ai",
+          "Azure OpenAi",
+          "RAG (Retrieval-Augmented Generation)",
+          "LLM Integration",
+          "Prompt Engineering & Evaluation",
+          "LLM Observability"
+        ]
+      },
+      {
+        "name": "Cloud & Infrastructure",
+        "level": "Advanced",
+        "keywords": [
+          "Azure",
+          "Terraform",
+          "Helm",
+          "Kubernetes",
+          "Docker",
+          "CI/CD",
+          "GitHub Actions",
+          "Azure Cognitive Services"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "level": "Advanced",
+        "keywords": [
+          "FastAPI",
+          "Next.js",
+          "React",
+          "WSGI",
+          "REST APIs",
+          "Shiny"
+        ]
+      },
+      {
+        "name": "Data & Analytics",
+        "level": "Expert",
+        "keywords": [
+          "Geospatial Analysis",
+          "Network Analysis",
+          "Agent-Based Modelling",
+          "ETL Pipelines",
+          "Microsoft Power Platform",
+          "R Stats"
+        ]
+      },
+      {
+        "name": "DevOps & Infrastructure",
+        "level": "Advanced",
+        "keywords": [
+          "CI/CD Pipelines",
+          "Docker",
+          "Terraform",
+          "GitHub Actions",
+          "Shell Scripting",
+          "Makefiles",
+          "Azure Cloud",
+          "Automated Testing",
+          "Coverage with CodeCov",
+          "Monitoring & Observability"
+        ]
+      },
+      {
+        "name": "Project Management",
+        "level": "Advanced",
+        "keywords": [
+          "Agile DSDM",
+          "Scrum Master",
+          "Kanban & Gantt",
+          "Stakeholder Management"
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Ministry of Justice - Catapult Scheme",
+        "position": "Mentor",
+        "url": "https://ai.justice.gov.uk/",
+        "startDate": "2025-08-01",
+        "summary": "Supporting social mobility and sponsoring a refugee transitioning into a Digital, Data and Technology (DDaT) role through the MoJ Catapult mentorship programme."
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Ai Ethics & Responsible Ai",
+        "keywords": [
+          "Ai Governance",
+          "Public Sector Ai Adoption",
+          "Transparency in Ai Systems"
+        ]
+      },
+      {
+        "name": "Open Source Development",
+        "keywords": [
+          "Code in the Open",
+          "Reproducible Analysis",
+          "Developer Standards"
+        ]
+      }
+    ]
+  }
+  
