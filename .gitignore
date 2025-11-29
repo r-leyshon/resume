@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
 
 # Generated HTML files (all are build artifacts)
 *.html
