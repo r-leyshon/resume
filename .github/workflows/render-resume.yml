@@ -7,6 +7,7 @@ on:
     paths:
       - 'resume.json'
       - 'www/**'
+      - 'portfolio/**'
       - '.github/workflows/render-resume.yml'
   workflow_dispatch:  # Allow manual triggering
 
@@ -49,6 +50,7 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           cp -r www _site/
+          cp -r portfolio _site/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

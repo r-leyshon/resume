@@ -3,6 +3,8 @@ node_modules/
 
 # Generated HTML files (all are build artifacts)
 *.html
+# Exception: Portfolio HTML files are static and should be committed
+!portfolio/*.html
 
 # Build directory
 _site/

@@ -136,6 +136,12 @@ resume/
 ├── Makefile              # Build automation ✅ Committed
 ├── www/                  # Static assets ✅ Committed
 │   └── fin-conf-2020-bw.jpg
+├── portfolio/            # Interactive portfolio ✅ Committed
+│   ├── index.html        # Garden main page
+│   ├── styles.css        # Glassmorphism design
+│   ├── garden.js         # Interactive functionality
+│   ├── garden.json       # Ideas data source
+│   └── README.md         # Garden documentation
 ├── index.html            # Generated HTML ❌ Build artifact (gitignored)
 └── theme-samples/        # Theme testing ❌ Not committed
     ├── test-themes.sh    # Theme testing script
@@ -205,6 +211,70 @@ open index.html      # Preview in browser
 ```
 
 Note: `index.html` is gitignored and treated as a build artifact. Only `resume.json` is committed.
+
+## 📁 Project Portfolio
+
+An interactive showcase of projects from prototypes to production systems.
+
+### What is it?
+
+Project Portfolio is a sleek, glassmorphism-styled web page showcasing projects at different stages of development - from experimental prototypes to production systems. Each project is categorized by type and demonstrates engineering thinking, technical learning, and iterative development.
+
+**Development Stages:**
+
+- **🔬 Exploration** - Early experimentation and feasibility testing
+- **🛠️ Development** - Active building and iteration
+- **🚀 Deployed** - Live demos and production systems
+- **📦 Archived** - Completed projects with documented learnings
+
+**Project Categories:**
+
+- **AI & Automation** - LLM applications, agentic systems, intelligent automation
+- **Search & RAG** - Semantic search, retrieval-augmented generation, knowledge systems
+- **Observability & Monitoring** - Infrastructure monitoring, LLM evaluation, system health
+- **Data Visualization & Education** - Interactive dashboards, educational tools, exploratory data analysis
+
+### Features
+
+- **Category Organization**: Projects organized by type (AI & Automation, Search & RAG, Observability, Data Visualization)
+- **Stage Filtering**: Filter projects by development stage
+- **Detailed Views**: Click any project for achievements, tech stack, and learnings
+- **Glassmorphism Design**: Sleek frosted-glass aesthetic with smooth transitions
+- **Zero Dependencies**: Pure HTML/CSS/JavaScript
+
+### Accessing the Portfolio
+
+Visit from the resume homepage or directly at: [https://r-leyshon.github.io/resume/portfolio/](https://r-leyshon.github.io/resume/portfolio/)
+
+### Adding New Projects
+
+Edit `portfolio/garden.json` and add a new entry:
+
+```json
+{
+  "id": "unique-id",
+  "title": "Project Name",
+  "tagline": "One-line description",
+  "category": "ai-automation|search-rag|observability|data-visualization",
+  "stage": "exploration|development|deployed|archived",
+  "status": "prototype|production",
+  "planted": "YYYY-MM-DD",
+  "lastUpdated": "YYYY-MM-DD",
+  "tags": ["tag1", "tag2"],
+  "techStack": ["Tech1", "Tech2"],
+  "description": "Detailed description...",
+  "achievements": ["Achievement 1"],
+  "links": {
+    "demo": "https://...",
+    "github": "https://..."
+  },
+  "learnings": "What you learned..."
+}
+```
+
+Then commit and push - GitHub Actions will automatically deploy the update.
+
+See [portfolio/README.md](portfolio/README.md) for more details.
 
 ## 💡 Tips
 

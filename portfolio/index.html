@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project portfolio by Rich Leyshon - from prototypes to production systems">
+    <title>Project Portfolio | Rich Leyshon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    
+    <header class="glass-card">
+        <div class="header-content">
+            <h1>Project Portfolio</h1>
+            <p class="subtitle">Prototypes to Production</p>
+            <p class="description">A showcase of projects from experimental prototypes to production systems. Each demonstrates engineering thinking, technical learning, and iterative development in action.</p>
+        </div>
+        <a href="../index.html" class="back-link glass-button">← Resume</a>
+    </header>
+    
+    <nav class="filters glass-card" aria-label="Filter projects by stage">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All Projects</button>
+        <button class="filter-btn" data-filter="deployed" aria-pressed="false">Deployed</button>
+        <button class="filter-btn" data-filter="development" aria-pressed="false">Development</button>
+        <button class="filter-btn" data-filter="exploration" aria-pressed="false">Exploration</button>
+        <button class="filter-btn" data-filter="archived" aria-pressed="false">Archived</button>
+    </nav>
+    
+    <main id="garden" class="garden-grid">
+        <!-- Plants rendered here by garden.js -->
+    </main>
+    
+    <div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-backdrop" aria-hidden="true"></div>
+        <div class="modal-content glass-card">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modal-body">
+                <!-- Idea details rendered here -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="garden.js"></script>
+</body>
+</html>
+

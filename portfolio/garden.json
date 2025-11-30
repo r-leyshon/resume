@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "title": "Project Portfolio",
+    "subtitle": "Prototypes to Production"
+  },
+  "projects": [
+    {
+      "id": "justice-transcribe",
+      "title": "Justice Transcribe",
+      "tagline": "Ai transcription for probation meetings",
+      "category": "ai-automation",
+      "stage": "deployed",
+      "status": "production",
+      "planted": "2025-08-26",
+      "lastUpdated": "2025-11-29",
+      "tags": ["ai", "transcription", "production", "government"],
+      "techStack": ["Python", "Azure OpenAI", "Azure Speech", "FastAPI"],
+      "description": "National Ai service automating probation meeting documentation using Ai transcription and LLM-generated summaries. Scaled from 300-user pilot to 40,000 probation officers nationwide.",
+      "achievements": [
+        "Delivered 34,000+ transcriptions and summaries by Nov 2025",
+        "Achieved 4.7/5 average satisfaction score",
+        "Scaled from pilot to national rollout for 40,000 officers",
+        "Added automated tests, coverage reporting, and secure CI/CD"
+      ],
+      "links": {
+        "demo": "https://ai.justice.gov.uk/ai-in-action/speech-ai"
+      },
+      "learnings": "Scaling Ai services in government requires robust engineering practices, user-centered design, and transparent communication about Ai capabilities and limitations."
+    },
+    {
+      "id": "magic-mail",
+      "title": "Ai Email Agent",
+      "tagline": "Agentic Outlook automation system",
+      "category": "ai-automation",
+      "stage": "exploration",
+      "status": "prototype",
+      "planted": "2025-08-26",
+      "lastUpdated": "2025-11-20",
+      "tags": ["ai", "automation", "email", "agentic"],
+      "techStack": ["Python", "FastAPI", "MSAL", "Microsoft Graph", "Azure OpenAI"],
+      "description": "3-month tech spike proof-of-concept: an agentic Microsoft Outlook automation system that orchestrates inbox management, applies user-defined policies, drafts responses, and integrates with Microsoft Entra SSO.",
+      "achievements": [
+        "Integrated Microsoft Entra SSO via MSAL",
+        "Built email policy orchestration engine with LLM agents",
+        "Automated inbox triage and response drafting",
+        "Created user-configurable management rules"
+      ],
+      "links": {},
+      "learnings": "Microsoft Graph API integration requires careful handling of authentication tokens and rate limits. Agentic systems need clear guardrails and user oversight to build trust."
+    },
+    {
+      "id": "moj-github-chat",
+      "title": "MoJ GitHub Chat",
+      "tagline": "Semantic search across organisation repositories",
+      "category": "search-rag",
+      "stage": "exploration",
+      "status": "prototype",
+      "planted": "2025-09-01",
+      "lastUpdated": "2025-11-15",
+      "tags": ["ai", "rag", "semantic-search", "github"],
+      "techStack": ["Python", "Shiny", "OpenAI", "RAG", "Vector DB"],
+      "description": "Prototype semantic search tool for exploring organisation repositories using RAG (Retrieval-Augmented Generation) and agentic orchestration. Helps developers discover relevant code and documentation.",
+      "achievements": [
+        "Implemented RAG architecture with vector embeddings",
+        "Built interactive Shiny web interface",
+        "Deployed public demo version",
+        "Enabled cross-repository semantic search"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/moj-github-chat-dev/"
+      },
+      "learnings": "RAG systems are powerful for code search but require careful chunking strategies and context window management. Shiny provides rapid prototyping for data-driven applications."
+    },
+    {
+      "id": "daemon-ai-assistant",
+      "title": "Daemon Ai Assistant",
+      "tagline": "Autonomous document analysis reviewer",
+      "category": "ai-automation",
+      "stage": "exploration",
+      "status": "prototype",
+      "planted": "2025-09-15",
+      "lastUpdated": "2025-11-10",
+      "tags": ["ai", "document-analysis", "autonomous", "nextjs"],
+      "techStack": ["Next.js", "FastAPI", "Vercel", "OpenAI API"],
+      "description": "Prototype autonomous reviewer for document analysis using modern web technologies. Built with Vercel v0 for rapid UI iteration and FastAPI backend for LLM integration.",
+      "achievements": [
+        "Rapid prototyping with Vercel v0",
+        "Modern Next.js frontend with responsive design",
+        "FastAPI backend with structured LLM outputs",
+        "Deployed live demo with CI/CD"
+      ],
+      "links": {
+        "demo": "https://daemon-ai-app.vercel.app/"
+      },
+      "learnings": "Vercel v0 dramatically accelerates UI development. Combining Next.js frontend with FastAPI backend provides excellent developer experience and deployment flexibility."
+    },
+    {
+      "id": "langfuse-platform",
+      "title": "Langfuse Observability Platform",
+      "tagline": "LLM monitoring and evaluation infrastructure",
+      "category": "observability",
+      "stage": "deployed",
+      "status": "production",
+      "planted": "2025-08-26",
+      "lastUpdated": "2025-11-25",
+      "tags": ["ai", "observability", "infrastructure", "kubernetes"],
+      "techStack": ["Terraform", "Helm", "Kubernetes", "PostgreSQL", "Let's Encrypt"],
+      "description": "Self-hosted Langfuse instance in Azure supporting monitoring and evaluation of all LLM completions across the directorate. Comprehensive infrastructure-as-code deployment with automated SSL and DNS.",
+      "achievements": [
+        "Deployed using Terraform and Helm with full IaC",
+        "Automated SSL with cert-manager + Let's Encrypt",
+        "DNS delegation and hardened networking",
+        "Built LLM quality monitoring pipelines"
+      ],
+      "links": {
+        "demo": "https://langfuse.com/docs"
+      },
+      "learnings": "Kubernetes deployments require careful attention to networking, secrets management, and SSL automation. Observability infrastructure needs to be as reliable as the services it monitors."
+    },
+    {
+      "id": "news-crawler",
+      "title": "Ai News Crawler",
+      "tagline": "Intelligent article ingestion with RAG",
+      "category": "search-rag",
+      "stage": "exploration",
+      "status": "prototype",
+      "planted": "2025-10-01",
+      "lastUpdated": "2025-11-05",
+      "tags": ["ai", "web-scraping", "rag", "langchain"],
+      "techStack": ["Python", "LangChain", "DuckDuckGo", "ChromaDB", "MCP"],
+      "description": "Ai-powered prototype news crawler using LangChain and the DuckDuckGo MCP server to ingest relevant articles into ChromaDB for RAG-based semantic search.",
+      "achievements": [
+        "Integrated MCP server for web search",
+        "Built LangChain orchestration pipeline",
+        "ChromaDB vector storage for semantic search",
+        "Early RAG experimentation"
+      ],
+      "links": {},
+      "learnings": "MCP (Model Context Protocol) provides interesting abstractions for tool use. Web scraping requires robust error handling and rate limiting to be production-ready."
+    },
+    {
+      "id": "choose-adventure",
+      "title": "Choose Your Own Adventure",
+      "tagline": "Interactive LLM-powered storytelling game",
+      "category": "ai-automation",
+      "stage": "archived",
+      "status": "prototype",
+      "planted": "2023-06-01",
+      "lastUpdated": "2023-08-01",
+      "tags": ["ai", "llm", "gaming", "content-moderation"],
+      "techStack": ["Python", "Shiny", "GPT-3.5 Turbo", "OpenAI Moderation API"],
+      "description": "Interactive choose-your-own-adventure game powered by GPT-3.5 Turbo. Developed before structured output endpoints were available, demonstrating early LLM integration patterns with content safety via OpenAI's moderation endpoint.",
+      "achievements": [
+        "Built pre-structured output LLM integration",
+        "Implemented content moderation pipeline",
+        "Created interactive narrative branching system",
+        "Deployed public demo with Python Shiny"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/choose-adventure/"
+      },
+      "learnings": "Early LLM applications required creative prompt engineering to achieve structured outputs. Content moderation is essential for user-facing generative AI applications."
+    },
+    {
+      "id": "user-personas",
+      "title": "User Personas Generator",
+      "tagline": "Rapid persona and requirements generation tool",
+      "category": "ai-automation",
+      "stage": "archived",
+      "status": "prototype",
+      "planted": "2023-09-01",
+      "lastUpdated": "2023-10-15",
+      "tags": ["ai", "product-management", "requirements", "chat"],
+      "techStack": ["Python", "Shiny", "OpenAI API"],
+      "description": "Tool for rapidly generating user personas and project requirements through conversational AI. Features concurrent chat stream management for exploring needs and requirements within provided project contexts.",
+      "achievements": [
+        "Implemented concurrent chat stream handling",
+        "Built interactive persona generation interface",
+        "Created requirements discussion framework",
+        "Deployed production-ready prototype"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/user-personas/"
+      },
+      "learnings": "Concurrent stream management in Python Shiny requires careful state handling. LLMs excel at structured persona generation when given appropriate context."
+    },
+    {
+      "id": "pyrosm-cities",
+      "title": "PyROSM Cities Explorer",
+      "tagline": "OpenStreetMap spatial feature analysis tool",
+      "category": "data-visualization",
+      "stage": "archived",
+      "status": "prototype",
+      "planted": "2021-03-01",
+      "lastUpdated": "2021-06-01",
+      "tags": ["geospatial", "osm", "education", "visualization"],
+      "techStack": ["Python", "Shiny", "PyROSM", "OpenStreetMap"],
+      "description": "Fast exploration of OpenStreetMap spatial features across international urban areas using PyROSM. Developed as an onboarding tool for graduate data scientists transitioning to geospatial work at ONS Data Science Campus. Note: OSM is crowd-sourced data with varying accuracy by area.",
+      "achievements": [
+        "Integrated PyROSM for efficient OSM parsing",
+        "Created multi-city spatial analysis interface",
+        "Deployed educational tool for DSC onboarding",
+        "Built interactive feature summarization"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/pyrosm-cities-app/"
+      },
+      "learnings": "PyROSM provides efficient parsing of OSM data. Educational tools benefit from interactive exploration over static tutorials."
+    },
+    {
+      "id": "unifyr",
+      "title": "UnifyR Join Demonstrator",
+      "tagline": "Interactive dplyr join types educator",
+      "category": "data-visualization",
+      "stage": "archived",
+      "status": "prototype",
+      "planted": "2020-05-01",
+      "lastUpdated": "2020-07-01",
+      "tags": ["education", "r", "data-manipulation", "training"],
+      "techStack": ["R", "Shiny", "dplyr"],
+      "description": "Educational tool demonstrating dplyr join types with interactive input/output dataframe visualization. Developed as a learning aid for the Reproducible Analytical Pipelines training programme, helping CARICOM analysts transition to programmatic data analysis.",
+      "achievements": [
+        "Created visual join type demonstrator",
+        "Built interactive dataframe comparison",
+        "Deployed for international training programme",
+        "Simplified complex data manipulation concepts"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/UnifyR/"
+      },
+      "learnings": "Visual demonstrations of data transformations significantly improve learning outcomes. Interactive tools help analysts transition from GUI-based to code-based workflows."
+    },
+    {
+      "id": "uk-covid-mobility",
+      "title": "UK COVID Mobility Tracker",
+      "tagline": "Real-time mobility patterns during pandemic",
+      "category": "data-visualization",
+      "stage": "archived",
+      "status": "production",
+      "planted": "2020-03-01",
+      "lastUpdated": "2020-04-10",
+      "tags": ["covid-19", "mobility", "public-health", "timeseries"],
+      "techStack": ["R", "Shiny", "Google Mobility Data"],
+      "description": "Interactive time series visualization of Google Mobility data by UK region, local authority, and clinical commissioning group. Urgent response tool developed at onset of ONS Data Science Campus employment to provide insight on movement patterns during COVID-19 outbreak and government containment measures.",
+      "achievements": [
+        "Rapid deployment during crisis response",
+        "Multi-level geographic aggregation (region/LA/CCG)",
+        "Interactive time series with policy annotations",
+        "Delivered actionable mobility insights"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/uk_all_trends/"
+      },
+      "learnings": "Crisis response requires rapid development and deployment. Clear visualizations of complex data support evidence-based policy decisions."
+    },
+    {
+      "id": "wales-schools-finance",
+      "title": "Wales Schools Finance Explorer",
+      "tagline": "Educational budget analysis and outlier detection",
+      "category": "data-visualization",
+      "stage": "archived",
+      "status": "production",
+      "planted": "2019-01-01",
+      "lastUpdated": "2019-12-01",
+      "tags": ["finance", "education", "audit", "scatter-analysis"],
+      "techStack": ["R", "Shiny", "OData", "Stats Wales API"],
+      "description": "Educational budget analysis tool developed for Wales Audit Office financial audits. Features novel scatter visualizations showing relationships between student enrollment and various budget categories, revealing clear correlations by school phase and size for outlier identification.",
+      "achievements": [
+        "Integrated Stats Wales OData feed",
+        "Created novel correlation visualizations",
+        "Enabled subject matter expert self-service analysis",
+        "Deployed outlier detection for audit workflows"
+      ],
+      "links": {
+        "demo": "https://richleysh84.shinyapps.io/education_combined_scatter_v3/"
+      },
+      "learnings": "Domain expert self-service tools accelerate analysis workflows. Visual outlier detection is more effective than tabular reporting for audit work."
+    }
+  ]
+}
+

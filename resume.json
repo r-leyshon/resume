@@ -24,7 +24,12 @@
           "network": "LinkedIn",
           "username": "richard-leyshon",
           "url": "https://www.linkedin.com/in/richard-leyshon-316121163/"
-        }
+        },
+      {
+        "network": "Portfolio",
+        "username": "Project Portfolio",
+        "url": "https://r-leyshon.github.io/resume/portfolio/"
+      }
       ]
     },
     "work": [
@@ -45,11 +50,6 @@
         "Deployed a self-hosted Langfuse instance in Azure using Terraform and Helm, with automated SSL (cert-manager + Let's Encrypt), DNS delegation, and hardened networking.",
         "Built comprehensive LLM quality monitoring pipelines: async context tracing, prompt versioning, latency and cost dashboards, and LLM-as-a-judge evaluation.",
         "Engineered reliable LLM integration pipelines using Vertex Ai and Azure Cognitive Services with structured output, retry/fallback logic, and content moderation.",
-        "<strong>Innovation & Prototyping Ai</strong>",
-        "Created <strong>Magic Mail</strong>, 3 month tech spike to proof-of-concept an agentic MicroSoft Outlook automation system that orchestrates inbox management, applies user-defined management policies, drafts responses, and integrates with Microsoft Entra SSO via MSAL.",
-        "Developed <strong>MoJ GitHub Chat</strong>, a prototype for semantic search across organisation repositories using RAG and agentic orchestration (<a href=\"https://richleysh84.shinyapps.io/moj-github-chat-dev/\" target=\"_blank\">public version</a>).",
-        "Built the <strong>Daemon Ai Assistant</strong> — prototyped an autonomous reviewer for document analysis using Vercel v0, Next.js, and FastAPI (<a href=\"https://daemon-ai-app.vercel.app/\" target=\"_blank\">demo</a>).",
-        "Built an Ai-powered prototype news crawler using LangChain and the DuckDuckGo MCP server to ingest relevant articles into ChromaDB for RAG-based semantic search.",
         "<strong>Governance & Capability</strong>",
         "Delivered interactive technical capability workshops on test-driven development to Justice Digital data scientists."
         ]
