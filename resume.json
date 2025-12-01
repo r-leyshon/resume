@@ -28,7 +28,7 @@
       {
         "network": "Portfolio",
         "username": "Project Portfolio",
-        "url": "https://r-leyshon.github.io/resume/portfolio/"
+        "url": "./portfolio/"
       }
       ]
     },
@@ -187,7 +187,6 @@
         "keywords": [
           "Python",
           "R",
-          "JavaScript",
           "SQL"
         ]
       },
@@ -252,7 +251,6 @@
           "GitHub Actions",
           "Shell Scripting",
           "Makefiles",
-          "Azure Cloud",
           "Automated Testing",
           "Coverage with CodeCov",
           "Monitoring & Observability"
@@ -265,7 +263,8 @@
           "Agile DSDM",
           "Scrum Master",
           "Kanban & Gantt",
-          "Stakeholder Management"
+          "Stakeholder Management",
+          "Compliance and Quality Assurance"
         ]
       }
     ],
