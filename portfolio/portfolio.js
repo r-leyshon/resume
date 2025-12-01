@@ -9,7 +9,7 @@ let currentFilter = 'all';
 // ============================================
 async function initGarden() {
     try {
-        const data = await fetch('garden.json').then(r => r.json());
+        const data = await fetch('portfolio.json').then(r => r.json());
         allProjects = data.projects;
         renderPlants(allProjects);
         setupFilters();

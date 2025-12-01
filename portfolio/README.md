@@ -28,8 +28,8 @@ Project Portfolio is an interactive showcase of projects at various stages of de
 portfolio/
 ├── index.html      # Main page with project showcase
 ├── styles.css      # Glassmorphism design system
-├── garden.js       # Interactive functionality
-├── garden.json     # Projects data source
+├── portfolio.js    # Interactive functionality
+├── portfolio.json  # Projects data source
 └── README.md       # This file
 ```
 
