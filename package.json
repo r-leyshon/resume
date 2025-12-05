@@ -21,5 +21,8 @@
   "dependencies": {
     "jsonresume-theme-kendall": "^0.2.0",
     "resumed": "^6.1.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.32.0"
   }
 }
