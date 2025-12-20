@@ -63,7 +63,8 @@
         "endDate": "2025-08-25",
         "summary": "Managed data science teams to innovate and deliver on emerging analytical priorities and tools. Delivering quality-assured systems and granular, applied geospatial analysis at national scale.",
         "highlights": [
-          "Led work on <a href=\"https://datasciencecampus.ons.gov.uk/comparing-international-transport-performance-in-urban-centres-upcoming-work/\" target=\"_blank\">urban public transport performance</a> across UK and international cities.",
+          "Led work on <a href=\"https://datasciencecampus.ons.gov.uk/transport-performance-a-reproducible-and-reusable-toolkit-for-measuring-transport-network-performances-internationally/\" target=\"_blank\">urban public transport performance</a> across UK and international cities, delivering a reproducible toolkit for measuring transport network performance internationally.",
+          "Secured £0.5 million in HMRC Economic Innovation Fund funding by personally writing a successful research bid for innovation in local transport statistics.",
           "Chaired the working group producing ONS Campus guidance on open-source development standards, leading to the publication of the <a href=\"https://datasciencecampus.github.io/coding-in-the-open/\" target=\"_blank\">ONS Campus Open Source Development Guidance</a>.",
           "Lead on research partnership with Alan Turing Institute, applying constrained optimisation research using agent-based modelling and network analysis to evaluate Local Authority progress against the UK Levelling Up agenda policy priorities.",
           "Expert panellist at The Alan Turing Institute's <a href=\"https://www.turing.ac.uk/events/policy-priorities-ai-sdgs\" target=\"_blank\">'Policy Priorities & Ai for SDGs'</a>.",
@@ -131,7 +132,10 @@
         "courses": [
           "Data management infrastructure, analytical tools, data science",
           "Big data analytics, distributed and cloud compute, data engineering",
-          "Event-driven and procedural programming"
+          "Event-driven and procedural programming",
+          "Principles of data management and advanced data representations",
+          "Statistical analysis of data sets",
+          "Data analysis tools and data science methodologies"
         ]
       },
       {

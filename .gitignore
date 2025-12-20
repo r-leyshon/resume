@@ -32,3 +32,6 @@ yarn-error.log*
 *.pdf
 anon-resume.json
 anon-resume.html
+personal-statement.pdf
+application.pdf
+git_ignore/

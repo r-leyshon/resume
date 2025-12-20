@@ -8,9 +8,30 @@ A professional resume built with [JSON Resume](https://jsonresume.org/) and rend
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Node.js](https://nodejs.org/) (v20 or higher required)
 - npm (comes with Node.js)
 - Make (optional, for using Makefile commands)
+
+### Node.js Version Management
+
+The `resumed` CLI tool requires Node.js v20+. If you're using an older version, upgrade using [nvm](https://github.com/nvm-sh/nvm):
+
+```bash
+# Install nvm (if not already installed)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+# Install Node.js v20
+nvm install 20
+
+# Use Node.js v20
+nvm use 20
+
+# Set as default (optional)
+nvm alias default 20
+
+# Verify version
+node --version  # Should show v20.x.x
+```
 
 ### Installation
 
@@ -114,14 +135,39 @@ Browse more themes at [JSON Resume Themes](https://jsonresume.org/themes/).
 ## 🛠️ Makefile Commands
 
 ```bash
-make help          # Show all available commands
-make install       # Install npm dependencies
-make render        # Render resume to HTML
-make validate      # Validate resume.json
-make test-themes   # Generate samples for all themes
-make clean         # Remove generated HTML files
-make rebuild       # Clean and re-render
+make help              # Show all available commands
+make install           # Install npm dependencies
+make install-merge     # Install PDF merging dependencies
+make render            # Render resume.json to index.html
+make render-anon       # Render anonymized resume to anon-resume.html
+make validate          # Validate resume.json
+make test-themes       # Generate samples for all themes
+make anonymize         # Create anonymized resume (anon-resume.json)
+make export            # Export resume to PDF (resume.pdf)
+make export-anon       # Export anonymized resume to PDF
+make statement-pdf     # Convert personal statement to PDF
+make merge-application # Merge resume + statement into application.pdf
+make clean             # Remove generated HTML files
+make rebuild           # Clean and re-render
 ```
+
+### Anonymization & PDF Export
+
+The project includes tools for creating anonymized versions of your resume and exporting to PDF:
+
+```bash
+# Create anonymized version (removes personal info, URLs, photo)
+make anonymize
+
+# Export to PDF
+make export              # Creates resume.pdf
+make export-anon         # Creates anon-resume.pdf
+
+# Merge resume with personal statement
+make merge-application   # Creates application.pdf
+```
+
+All anonymized files and PDFs are automatically gitignored.
 
 ## 📁 Project Structure
 
@@ -129,24 +175,35 @@ make rebuild       # Clean and re-render
 resume/
 ├── .github/
 │   └── workflows/
-│       └── render-resume.yml  # Auto-build and deploy
-├── .gitignore            # Git ignore rules
-├── resume.json           # Resume data (edit this!) ✅ Committed
-├── package.json          # npm dependencies ✅ Committed
-├── Makefile              # Build automation ✅ Committed
-├── www/                  # Static assets ✅ Committed
+│       └── render-resume.yml      # Auto-build and deploy
+├── scripts/                       # Utility scripts ✅ Committed
+│   ├── anonymize.js               # Resume anonymization
+│   ├── merge-statement.js         # Personal statement PDF generation
+│   ├── merge-pdfs.js              # PDF merging
+│   └── validate-json.js           # JSON validation
+├── .gitignore                     # Git ignore rules
+├── resume.json                    # Resume data (edit this!) ✅ Committed
+├── package.json                   # npm dependencies ✅ Committed
+├── Makefile                       # Build automation ✅ Committed
+├── www/                           # Static assets ✅ Committed
 │   └── fin-conf-2020-bw.jpg
-├── portfolio/            # Interactive portfolio ✅ Committed (including HTML!)
-│   ├── index.html        # Portfolio page ✅ Committed (static HTML)
-│   ├── styles.css        # Glassmorphism design
-│   ├── portfolio.js      # Interactive functionality
-│   ├── portfolio.json    # Projects data source
-│   └── README.md         # Portfolio documentation
-├── index.html            # Resume HTML ❌ Build artifact (gitignored, auto-generated)
-└── theme-samples/        # Theme testing ❌ Not committed
-    ├── test-themes.sh    # Theme testing script
-    ├── www/              # Copied assets for theme samples
-    └── resume-*.html     # Generated theme samples
+├── portfolio/                     # Interactive portfolio ✅ Committed (including HTML!)
+│   ├── index.html                 # Portfolio page ✅ Committed (static HTML)
+│   ├── styles.css                 # Glassmorphism design
+│   ├── portfolio.js               # Interactive functionality
+│   ├── portfolio.json             # Projects data source
+│   └── README.md                  # Portfolio documentation
+├── index.html                     # Resume HTML ❌ Build artifact (gitignored, auto-generated)
+├── resume.pdf                     # Resume PDF ❌ Build artifact (gitignored)
+├── anon-resume.json               # Anonymized resume ❌ Build artifact (gitignored)
+├── anon-resume.html               # Anonymized HTML ❌ Build artifact (gitignored)
+├── anon-resume.pdf                # Anonymized PDF ❌ Build artifact (gitignored)
+├── personal-statement.pdf         # Statement PDF ❌ Build artifact (gitignored)
+├── application.pdf                # Merged application ❌ Build artifact (gitignored)
+└── theme-samples/                 # Theme testing ❌ Not committed
+    ├── test-themes.sh             # Theme testing script
+    ├── www/                       # Copied assets for theme samples
+    └── resume-*.html              # Generated theme samples
 ```
 
 ## 🖼️ Profile Photo
@@ -310,6 +367,44 @@ Use `<strong>` tags for bold text (the Kendall theme doesn't support Markdown):
 - Use "Ai" instead of "AI" (project preference)
 - Use British spelling (e.g., "specialising", "recognising", "modelling")
 - Keep dates in ISO format: `YYYY-MM-DD`
+
+## 🔧 Troubleshooting
+
+### Node.js Version Issues
+
+If you see errors like `SyntaxError: The requested module 'node:util' does not provide an export named 'styleText'`, you're using Node.js v18 or older. The `resumed` tool requires Node.js v20+.
+
+**Solution:**
+
+```bash
+# Check your current version
+node --version
+
+# If < v20, upgrade using nvm
+nvm install 20
+nvm use 20
+
+# Clear any cached packages
+rm -rf ~/node_modules/resumed
+
+# Test the fix
+npx resumed --version
+```
+
+### Commands Not Working
+
+If `make` commands fail, you can run the underlying commands directly:
+
+```bash
+# Instead of: make render
+npx resumed render resume.json -o index.html
+
+# Instead of: make export
+npx resumed export resume.json -o resume.pdf
+
+# Instead of: make validate
+node scripts/validate-json.js resume.json
+```
 
 ## 📄 License
 
