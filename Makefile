@@ -1,4 +1,13 @@
-.PHONY: help install install-merge render render-anon validate test-themes clean anonymize export export-anon statement-pdf merge-application
+.PHONY: help install install-merge render render-anon validate test-themes clean anonymize export export-anon statement-pdf merge-application check-node
+
+# Check Node.js version
+check-node:
+	@node_version=$$(node -v | sed 's/v//;s/\..*//'); \
+	if [ "$$node_version" -lt 20 ]; then \
+		echo "❌ Error: Node.js v20+ required (current: $$(node -v))"; \
+		echo "Run: nvm use 20"; \
+		exit 1; \
+	fi
 
 # Default target
 help:
@@ -17,6 +26,8 @@ help:
 	@echo "  make merge-application - Merge statement + resume into application.pdf"
 	@echo "  make clean             - Remove generated HTML files"
 	@echo ""
+	@echo "Note: Requires Node.js v20+. Run 'nvm use 20' if needed."
+	@echo ""
 
 # Install dependencies
 install:
@@ -30,19 +41,19 @@ install-merge:
 	@echo "✓ pdf-lib installed"
 
 # Render the resume with the default theme
-render:
+render: check-node
 	@echo "Rendering resume with Kendall theme..."
 	npx resumed render resume.json -o index.html
 	@echo "✓ Resume rendered to index.html"
 
 # Render the anonymized resume
-render-anon: anonymize
+render-anon: anonymize check-node
 	@echo "Rendering anonymized resume with Kendall theme..."
 	npx resumed render anon-resume.json -o anon-resume.html
 	@echo "✓ Anonymized resume rendered to anon-resume.html"
 
 # Validate the resume.json
-validate:
+validate: check-node
 	@echo "Validating resume.json..."
 	node scripts/validate-json.js resume.json
 
@@ -64,31 +75,31 @@ rebuild: render
 	@echo "✓ Rebuild complete"
 
 # Anonymize resume for sharing
-anonymize:
+anonymize: check-node
 	@echo "Anonymizing resume.json..."
 	node scripts/anonymize.js resume.json anon-resume.json
 	@echo "✓ Created anon-resume.json (personal details redacted)"
 
 # Export resume to PDF
-export:
+export: check-node
 	@echo "Exporting resume to PDF..."
 	npx resumed export resume.json -o resume.pdf
 	@echo "✓ Resume exported to resume.pdf"
 
 # Export anonymized resume to PDF
-export-anon: anonymize
+export-anon: anonymize check-node
 	@echo "Exporting anonymized resume to PDF..."
 	npx resumed export anon-resume.json -o anon-resume.pdf
 	@echo "✓ Anonymized resume exported to anon-resume.pdf"
 
 # Convert personal statement to PDF
-statement-pdf:
+statement-pdf: check-node
 	@echo "Converting personal statement to PDF..."
 	node scripts/merge-statement.js personal-statement.txt personal-statement.pdf
 	@echo "✓ Personal statement PDF created"
 
 # Merge personal statement and resume into single application PDF
-merge-application: statement-pdf export
+merge-application: statement-pdf export check-node
 	@echo "Merging resume and personal statement..."
 	node scripts/merge-pdfs.js resume.pdf personal-statement.pdf application.pdf
 	@echo "✓ Application PDF created: application.pdf"
