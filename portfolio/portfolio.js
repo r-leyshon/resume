@@ -10,7 +10,10 @@ let currentFilter = 'all';
 async function initGarden() {
     try {
         const data = await fetch('portfolio.json').then(r => r.json());
-        allProjects = data.projects;
+        // Sort projects by lastUpdated (most recent first)
+        allProjects = data.projects.sort((a, b) => 
+            new Date(b.lastUpdated) - new Date(a.lastUpdated)
+        );
         renderPlants(allProjects);
         setupFilters();
         setupModal();

@@ -12,12 +12,13 @@
       "stage": "deployed",
       "status": "production",
       "planted": "2025-08-26",
-      "lastUpdated": "2025-11-29",
+      "lastUpdated": "2026-01-17",
       "tags": ["ai", "transcription", "production", "government"],
       "techStack": ["Python", "Azure OpenAI", "Azure Speech", "FastAPI"],
       "description": "Ai service deployed at national scale, automating probation meetings using Azure speech-to-text and LLM-generated summaries.",
       "achievements": [
-        "Delivered 34,000+ transcriptions and summaries by Nov 2025",
+        "Delivered 70,000+ transcriptions and summaries by Jan 2026",
+        "Estimated time savings in excess of 23,000 hours",
         "Achieved 4.7/5 average satisfaction score",
         "Scaling from pilot to national rollout for c. 40,000 probation officers",
         "Added automated tests, coverage reporting, and secure CI/CD"
@@ -98,10 +99,10 @@
       "title": "Langfuse Observability Platform",
       "tagline": "LLM monitoring and evaluation infrastructure",
       "category": "observability",
-      "stage": "deployed",
+      "stage": "archived",
       "status": "production",
       "planted": "2025-08-26",
-      "lastUpdated": "2025-11-25",
+      "lastUpdated": "2026-01-17",
       "tags": ["ai", "observability", "infrastructure", "kubernetes"],
       "techStack": ["Terraform", "Helm", "Kubernetes", "PostgreSQL", "Azure Cloud"],
       "description": "Self-hosted Langfuse instance in Azure supporting monitoring and evaluation of all LLM completions across the directorate. Comprehensive infrastructure-as-code deployment with automated SSL and DNS.",
@@ -115,7 +116,7 @@
       "links": {
         "documentation": "https://justiceaiunit.github.io/langfuse-tracing-selfhost/"
       },
-      "learnings": "Container orchestration with k8s, SSL automation, DNS delegation, SMTP relay with Azure Communications Service, distributed database management with zookeeper and clickhouse."
+      "learnings": "Container orchestration with k8s, SSL automation, DNS delegation, SMTP relay with Azure Communications Service, distributed database management with zookeeper and clickhouse. Expensive and complex maintenance overhead, transitioning to Azure's native Observability service."
     },
     {
       "id": "news-crawler",
@@ -125,17 +126,20 @@
       "stage": "exploration",
       "status": "prototype",
       "planted": "2025-10-01",
-      "lastUpdated": "2025-11-05",
+      "lastUpdated": "2026-01-17",
       "tags": ["ai", "web-scraping", "rag", "langchain"],
-      "techStack": ["Python", "LangChain", "DuckDuckGo", "ChromaDB", "MCP"],
-      "description": "Ai-powered prototype news crawler using LangChain and the DuckDuckGo MCP server to ingest relevant articles into ChromaDB for RAG-based semantic search.",
+      "techStack": ["Python", "LangChain", "DuckDuckGo", "PostgreSQL", "MCP"],
+      "description": "Ai-powered prototype news crawler using LangChain and the DuckDuckGo MCP server to ingest relevant articles into PostgreSQL for RAG-based semantic search.",
       "achievements": [
         "Integrated MCP server for web search",
         "Built LangChain orchestration pipeline",
-        "ChromaDB vector storage for semantic search",
-        "Early RAG experimentation"
+        "PostgreSQL vector storage for semantic search",
+        "GitHub OAuth for authorisation-gated database management features",
+        "Retrieval Augmented Generation"
       ],
-      "links": {},
+      "links": {
+        "demo": "https://news-crawler-ochre.vercel.app/"
+      },
       "learnings": "MCP (Model Context Protocol) provides interesting abstractions for tool use. Web scraping requires robust error handling and rate limiting to be production-ready."
     },
     {
@@ -185,7 +189,7 @@
     },
     {
       "id": "unifyr",
-      "title": "UnifyR Join Demonstrator",
+      "title": "UnifyR Data Linkage Education Tool",
       "tagline": "Interactive data join types educator",
       "category": "data-visualization",
       "stage": "archived",
