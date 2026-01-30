@@ -254,7 +254,29 @@
         "demo": "https://richleysh84.shinyapps.io/education_combined_scatter_v3/"
       },
       "learnings": "Domain expert self-service tools accelerate analysis workflows, helped to steer emerging priorities towards a reproducible analytical pipeline"
+    },
+    {
+      "id": "rubber-duck-committee",
+      "title": "Duck Committee",
+      "tagline": "A council of AI rubber ducks for debugging problems",
+      "category": "ai-automation",
+      "stage": "exploration",
+      "status": "prototype",
+      "planted": "2026-01-28",
+      "lastUpdated": "2026-01-28",
+      "tags": ["ai", "debugging", "llm", "voice"],
+      "techStack": ["Next.js", "Vertex AI", "Transcription API"],
+      "description": "An experimental debugging assistant featuring a customisable council of rubber duck personas. Each duck has distinct personality traits and can participate in structured operations like voting on preferred solutions and prompting the user for greater detail.",
+      "achievements": [
+        "Orchestrated multi-persona duck council with customisable traits",
+        "Integrated Vertex AI for LLM completions",
+        "Added voice transcription for hands-free debugging sessions",
+        "Built voting mechanism for solution preference ranking"
+      ],
+      "links": {
+        "demo": "https://rubber-duck-committee.vercel.app/"
+      },
+      "learnings": "Multi-persona LLM orchestration provides diverse perspectives on debugging problems. Voice input lowers friction for articulating complex issues."
     }
   ]
 }
-
