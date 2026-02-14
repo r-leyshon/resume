@@ -135,11 +135,16 @@ function createModalContent(project) {
     const stageLabel = getStageLabel(project.stage);
     const categoryLabel = getCategoryLabel(project.category);
     
-    const linksHtml = project.links && (project.links.demo || project.links.github) ? `
+    const linksHtml = project.links && Object.keys(project.links).length > 0 ? `
         <div class="modal-section">
+            <h3>Links</h3>
             <div class="modal-links">
-                ${project.links.demo ? `<a href="${project.links.demo}" class="modal-link" target="_blank" rel="noopener noreferrer">View Demo →</a>` : ''}
-                ${project.links.github ? `<a href="${project.links.github}" class="modal-link" target="_blank" rel="noopener noreferrer">GitHub →</a>` : ''}
+                ${Object.entries(project.links).map(([name, url]) => {
+                    const label = name === 'demo' ? 'View Demo' : 
+                                  name === 'github' ? 'GitHub' : 
+                                  name === 'documentation' ? 'Documentation' : name;
+                    return `<a href="${url}" class="modal-link" target="_blank" rel="noopener noreferrer">${label} →</a>`;
+                }).join('')}
             </div>
         </div>
     ` : '';

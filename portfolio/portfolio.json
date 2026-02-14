@@ -277,6 +277,32 @@
         "demo": "https://rubber-duck-committee.vercel.app/"
       },
       "learnings": "Multi-persona LLM orchestration provides diverse perspectives on debugging problems. Voice input lowers friction for articulating complex issues."
+    },
+    {
+      "id": "unified-chat-service",
+      "title": "Unified Chat Service",
+      "tagline": "Global 'chat with your docs' RAG service",
+      "category": "search-rag",
+      "stage": "exploration",
+      "status": "prototype",
+      "planted": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "tags": ["ai", "rag", "chat", "embeddings", "saas"],
+      "techStack": ["Next.js", "Vertex AI Gemini", "Neon PostgreSQL", "pgvector"],
+      "description": "A centralised RAG service providing 'chat with your docs' functionality that can be integrated into any product. Uses Neon PostgreSQL with pgvector for vector storage and Vertex AI Gemini for embeddings and completions. Includes a component library for easy frontend integration.",
+      "achievements": [
+        "Built centralised RAG backend with pgvector semantic search",
+        "Vertex AI Gemini integration for embeddings and completions",
+        "Reusable chat component library for product integration",
+        "Demonstrated with multiple toy apps showing styling flexibility"
+      ],
+      "links": {
+        "demo": "https://unified-chat-service-unified-chat-s.vercel.app/",
+        "Unit Converter": "https://unit-converter-chi-ten.vercel.app/",
+        "Pomodoro Timer": "https://minimal-pomodoro-one.vercel.app/",
+        "Tip Calculator": "https://tip-calculator-ruby-eight.vercel.app/"
+      },
+      "learnings": "Centralised RAG services enable rapid product integration. pgvector with Neon provides a simpler alternative to dedicated vector databases. Component library approach allows consistent chat UX across products while respecting individual product styling."
     }
   ]
 }
