@@ -42,8 +42,8 @@
         "highlights": [
         "<strong>Justice Transcribe</strong>",
         "Senior Ai engineer on <a href=\"https://ai.justice.gov.uk/ai-in-action/speech-ai\" target=\"_blank\">Justice Transcribe</a>, automating probation meeting documentation using Ai transcription and LLM-generated summaries.",
-        "Scaled the service from a 300-user pilot to a national rollout for 40,000 probation officers, enabling consistent, compliant meeting records.",
-        "Delivered 34,000+ transcriptions and summaries by Nov 2025 with a 4.7/5 average satisfaction score.",
+        "Scaled the service from a 300-user pilot to nearly 7,000 staff nationally, enabling consistent, compliant meeting records.",
+        "Generated 120,000+ AI meeting summaries, saving over 30,000 hours for staff with a 4.7/5 average satisfaction score since October 2025.",
         "Added robust engineering practices including automated tests, coverage reporting, dependency validation, and secure CI/CD workflows.",
         "<strong>Ai Observability & Langfuse Platform</strong>",
         "Maintainer of the Unit's Langfuse observability backend, supporting monitoring and evaluation of all LLM completions across the directorate.",
@@ -51,7 +51,8 @@
         "Built comprehensive LLM quality monitoring pipelines: async context tracing, prompt versioning, latency and cost dashboards, and LLM-as-a-judge evaluation.",
         "Engineered reliable LLM integration pipelines using Vertex Ai and Azure Cognitive Services with structured output, retry/fallback logic, and content moderation.",
         "<strong>Governance & Capability</strong>",
-        "Delivered interactive technical capability workshops on test-driven development to Justice Digital data scientists."
+        "Delivered interactive technical capability workshops on test-driven development to Justice Digital data scientists, May 2025.",
+        "Delivered Git & GitHub practice training to cohorts of intern AI Engineers, February 2026."
         ]
 
       },
