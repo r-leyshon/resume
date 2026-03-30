@@ -42,17 +42,19 @@
         "highlights": [
         "<strong>Justice Transcribe</strong>",
         "Senior Ai engineer on <a href=\"https://ai.justice.gov.uk/ai-in-action/speech-ai\" target=\"_blank\">Justice Transcribe</a>, automating probation meeting documentation using Ai transcription and LLM-generated summaries.",
-        "Scaled the service from a 300-user pilot to nearly 7,000 staff nationally, enabling consistent, compliant meeting records.",
-        "Generated 120,000+ AI meeting summaries, saving over 30,000 hours for staff with a 4.7/5 average satisfaction score since October 2025.",
+        "Scaled the service from a 300-user pilot to national rollout across all 12 probation regions, reaching nearly 8,000 unique users and almost 10,000 meetings summarised per day by March 2026.",
+        "Delivered 287,000+ AI meeting summaries, saving an estimated 47,833 to 71,750 staff hours while maintaining a 4.7/5 average rating from 24,000+ in-app reviews.",
         "Added robust engineering practices including automated tests, coverage reporting, dependency validation, and secure CI/CD workflows.",
-        "<strong>Ai Observability & Langfuse Platform</strong>",
-        "Maintainer of the Unit's Langfuse observability backend, supporting monitoring and evaluation of all LLM completions across the directorate.",
-        "Deployed a self-hosted Langfuse instance in Azure using Terraform and Helm, with automated SSL (cert-manager + Let's Encrypt), DNS delegation, and hardened networking.",
-        "Built comprehensive LLM quality monitoring pipelines: async context tracing, prompt versioning, latency and cost dashboards, and LLM-as-a-judge evaluation.",
-        "Engineered reliable LLM integration pipelines using Vertex Ai and Azure Cognitive Services with structured output, retry/fallback logic, and content moderation.",
+        "<strong>Ai Observability, Analytics & Evaluation</strong>",
+        "Significant experience deploying self-hosted Langfuse in Azure using reusable Terraform modules and Helm, including automated SSL, DNS delegation, and hardened networking.",
+        "Built detailed product and system analytics across Azure Application Insights, Sentry, and PostHog, covering reliability, latency, adoption, and customer behaviour for production Ai services.",
+        "Implemented customer feedback loops in Langfuse and PostHog, with PostHog feature flags to support controlled rollout, experimentation, and evidence-led product decisions.",
+        "Designed system evaluation pipelines using custom benchmarks, Azure Ai Foundry models, and LLM-as-a-judge approaches to assess quality, safety, and regression risk.",
         "<strong>Governance & Capability</strong>",
         "Delivered interactive technical capability workshops on test-driven development to Justice Digital data scientists, May 2025.",
-        "Delivered Git & GitHub practice training to cohorts of intern AI Engineers, February 2026."
+        "Designed and delivered Git & GitHub training for intern AI Engineers, covering live code-along practice, standard team workflows, and techniques for keeping commit history readable.",
+        "Delivered accessibility training to interns, covering browser accessibility tools, pre-commit checks, Cursor workflows, and practical QA tips aligned to GDS guidance.",
+        "Helped establish developer process guidance and centralise onboarding information within the developer documentation repository, improving consistency and ramp-up for new engineers."
         ]
 
       },

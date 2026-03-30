@@ -12,15 +12,15 @@
       "stage": "deployed",
       "status": "production",
       "planted": "2025-08-26",
-      "lastUpdated": "2026-01-17",
+      "lastUpdated": "2026-03-30",
       "tags": ["ai", "transcription", "production", "government"],
       "techStack": ["Python", "Azure OpenAI", "Azure Speech", "FastAPI"],
       "description": "Ai service deployed at national scale, automating probation meetings using Azure speech-to-text and LLM-generated summaries.",
       "achievements": [
-        "Delivered 70,000+ transcriptions and summaries by Jan 2026",
-        "Estimated time savings in excess of 23,000 hours",
-        "Achieved 4.7/5 average satisfaction score",
-        "Scaling from pilot to national rollout for c. 40,000 probation officers",
+        "Delivered 287,000+ meeting summaries following national rollout",
+        "Estimated time savings of 47,833 to 71,750 hours",
+        "Achieved a 4.7/5 average rating from 24,000+ in-app reviews",
+        "Scaled from a 300-user pilot to nearly 8,000 unique users across 12 probation regions",
         "Added automated tests, coverage reporting, and secure CI/CD"
       ],
       "links": {
@@ -102,21 +102,21 @@
       "stage": "archived",
       "status": "production",
       "planted": "2025-08-26",
-      "lastUpdated": "2026-01-17",
+      "lastUpdated": "2026-03-30",
       "tags": ["ai", "observability", "infrastructure", "kubernetes"],
       "techStack": ["Terraform", "Helm", "Kubernetes", "PostgreSQL", "Azure Cloud"],
-      "description": "Self-hosted Langfuse instance in Azure supporting monitoring and evaluation of all LLM completions across the directorate. Comprehensive infrastructure-as-code deployment with automated SSL and DNS.",
+      "description": "Archived internal platform project demonstrating significant experience deploying self-hosted Langfuse in Azure and building observability, analytics, and evaluation tooling around production LLM services.",
       "achievements": [
-        "Deployed using Terraform and Helm with full IaC",
-        "Automated SSL with cert-manager + Let's Encrypt",
-        "DNS delegation and hardened networking",
-        "Compliance with data retention policies",
-        "Built LLM quality monitoring pipelines"
+        "Deployed self-hosted Langfuse in Azure using reusable Terraform modules and Helm",
+        "Built analytics across Azure Application Insights, Sentry, and PostHog",
+        "Implemented customer feedback capture in Langfuse and PostHog",
+        "Enabled controlled release and experimentation with PostHog feature flags",
+        "Designed custom benchmark and LLM-as-a-judge evaluation workflows with Azure Ai Foundry models"
       ],
       "links": {
         "documentation": "https://justiceaiunit.github.io/langfuse-tracing-selfhost/"
       },
-      "learnings": "Container orchestration with k8s, SSL automation, DNS delegation, SMTP relay with Azure Communications Service, distributed database management with zookeeper and clickhouse. Expensive and complex maintenance overhead, transitioning to Azure's native Observability service."
+      "learnings": "Strong hands-on experience with Langfuse deployment patterns, prompt tracing, product analytics, and evaluation design for LLM systems. The internal platform was later deprecated in favour of lighter-weight native observability tooling, but the Terraform, analytics, and evaluation approaches remain directly applicable."
     },
     {
       "id": "news-crawler",
